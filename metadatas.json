@@ -1,0 +1,5752 @@
+[{
+  "_id": {
+    "$oid": "5cf74de2e735721e90701ab5"
+  },
+  "gender": [
+    {
+      "label_ar": "ذكر",
+      "label_fr": "Homme",
+      "label_rs": "Мужчина",
+      "label_ch": "男",
+      "label_nl": "Man",
+      "label_sw": "Mwanaume",
+      "label_sp": "Masculino",
+      "label_de": "Männlich",
+      "label_pt": "Masculino",
+      "label_en": "Male",
+      "label_tr": "Erkek",
+      "value": "male"
+    },
+    {
+      "label_ar": "أنثى",
+      "label_fr": "Femme",
+      "label_rs": "Женщина",
+      "label_ch": "女",
+      "label_nl": "Vrouw",
+      "label_sw": "Mwanamke",
+      "label_sp": "Femenino",
+      "label_de": "Weiblich",
+      "label_pt": "Feminino",
+      "label_en": "Female",
+      "label_tr": "Kadın",
+      "value": "female"
+    },
+    {
+      "label_ar": "غيرذلك",
+      "label_fr": "Autres",
+      "label_rs": "Другой",
+      "label_ch": "其他",
+      "label_nl": "Anders",
+      "label_sw": "Nyingine",
+      "label_sp": "Otro",
+      "label_de": "Anderes / Divers",
+      "label_pt": "Outro",
+      "label_en": "Other",
+      "label_tr": "Başka",
+      "value": "other"
+    }
+  ],
+  "title_degreeData": [
+    {
+      "label": "Not available",
+      "value": "not_available"
+    },
+    {
+      "label": "Prof. (Professor)",
+      "value": "Prof"
+    },
+    {
+      "value": "Dr",
+      "label": "Dr."
+    },
+    {
+      "label": "M.D.",
+      "value": "M.D."
+    },
+    {
+      "label": "MBA",
+      "value": "MBA"
+    },
+    {
+      "label": "M.Sc.",
+      "value": "M.Sc."
+    },
+    {
+      "label": "B.Sc.",
+      "value": "B.Sc."
+    },
+    {
+      "label": "M.A.",
+      "value": "M.A."
+    },
+    {
+      "label": "B.A.",
+      "value": "B.A."
+    },
+    {
+      "label": "Mr.",
+      "value": "Mr."
+    },
+    {
+      "label": "Mrs.",
+      "value": "Mrs."
+    }
+  ],
+  "pain_quality": [
+    {
+      "label_ar": "غير واضح",
+      "label_tr": "Hafif",
+      "label_fr": "Terne",
+      "label_rs": "Тупая",
+      "label_ch": "沉闷",
+      "label_nl": "Dof",
+      "label_sw": "Wepesi",
+      "label_sp": "Sordo",
+      "label_de": "Dumpf",
+      "label_pt": "Maçante",
+      "label_en": "Dull",
+      "vlaue": "dull"
+    },
+    {
+      "label_ar": "حرقان",
+      "label_fr": "Brûlant",
+      "label_tr": "Yakıcı",
+      "label_rs": "Жгучая",
+      "label_ch": "燃烧的",
+      "label_nl": "Brandend",
+      "label_sw": "Kuungua",
+      "label_sp": "Quemante",
+      "label_de": "Brennend",
+      "label_pt": "Ardente",
+      "label_en": "Burning",
+      "value": "burning"
+    },
+    {
+      "label_ar": "سحق/هرس",
+      "label_fr": "Martèlement",
+      "label_tr": "Sızlama",
+      "label_rs": "Пульсирующая",
+      "label_ch": "冲击",
+      "label_nl": "Kloppend",
+      "label_sw": "Kupiga",
+      "label_sp": "Pulsante",
+      "label_de": "Pulsierend",
+      "label_pt": "Latejante",
+      "label_en": "Pounding",
+      "value": "pounding"
+    },
+    {
+      "label_ar": "طعن",
+      "label_tr": "Keskin",
+      "label_fr": "Lancinant",
+      "label_rs": "Режущая",
+      "label_ch": "刺伤",
+      "label_nl": "Stekend",
+      "label_sw": "Kudunga",
+      "label_sp": "Punzante",
+      "label_de": "Stechend",
+      "label_pt": "Crónica",
+      "label_en": "Stabbing",
+      "value": "stabbing"
+    },
+    {
+      "label_ar": "تقلصات",
+      "label_tr": "Kramp gibi",
+      "label_fr": "Crampe",
+      "label_rs": "Судороги",
+      "label_ch": "抽筋状",
+      "label_nl": "Krampachtig",
+      "label_sw": "Uchungu wa tumbo",
+      "label_sp": "Calambre",
+      "label_de": "Krampf-/Kolikartig",
+      "label_pt": "Cãibra",
+      "label_en": "Cramplike",
+      "value": "cramplike"
+    },
+    {
+      "label_ar": "مؤلم بشدة",
+      "label_tr": "Ağrılı",
+      "label_fr": "Douloureux",
+      "label_rs": "Ноющая",
+      "label_ch": "疼痛",
+      "label_nl": "Zeer",
+      "label_sw": "Kuuma",
+      "label_sp": "Profundo",
+      "label_de": "Ziehend",
+      "label_pt": "Profunda",
+      "label_en": "Aching",
+      "value": "aching"
+    }
+  ],
+  "pain_type": [
+    {
+      "label_ar": "حاد",
+      "label_fr": "Aigu",
+      "label_tr": "Akut",
+      "label_rs": "Острая",
+      "label_ch": "急性",
+      "label_nl": "Acute",
+      "label_sw": "Maumivu ya papo hapo",
+      "label_sp": "Agudo",
+      "label_de": "Akut",
+      "label_en": "Acute",
+      "label_pt": "Aguda",
+      "value": "acute"
+    },
+    {
+      "label_ar": "مزمن",
+      "label_fr": "Chronique",
+      "label_tr": "Kronik",
+      "label_rs": "Хроническая",
+      "label_ch": "慢性",
+      "label_nl": "Chronisch",
+      "label_sw": "maumivu ya muda mrefu",
+      "label_sp": "Crónico",
+      "label_de": "Chronisch",
+      "label_en": "Chronic",
+      "label_pt": "Crónica",
+      "value": "chronic"
+    }
+  ],
+  "situation": [
+    {
+      "label_ar": "ما بعد الأكل ",
+      "label_tr": "TOK KARNINA ",
+      "label_fr": "POSTPRANDIAL ",
+      "label_rs": "Постпрандиальная",
+      "label_ch": "餐后 ",
+      "label_nl": "POSTPRANDIAAL ",
+      "label_sw": "Baada ya akula",
+      "label_sp": "POSTPRANDIAL ",
+      "label_de": "NACH DEM ESSEN",
+      "label_pt": "PÓS-PRANDIAL",
+      "label_en": "POSTPRANDIAL ",
+      "value": "stress"
+    },
+    {
+      "label_ar": "معدة فارغة",
+      "label_tr": "AÇ KARNINA",
+      "label_fr": "ESTOMAC VIDE",
+      "label_rs": "Пустой желудок",
+      "label_ch": "空腹",
+      "label_nl": "LEGE MAAG",
+      "label_sw": "Tumbo kavu",
+      "label_sp": "ESTOMAGO VACIO",
+      "label_de": "NÜCHTERN",
+      "label_pt": "ESTÔMAGO VAZIO",
+      "label_en": "EMPTY STOMACH",
+      "value": "relaxed"
+    }
+  ],
+  "situation_pressure": [
+    {
+      "label_ar": "مسترخ",
+      "label_tr": "RAHAT",
+      "label_fr": "DÉTENDU",
+      "label_rs": "Расслабленный",
+      "label_ch": "轻松",
+      "label_nl": "GERELAXED",
+      "label_sw": "TULIA",
+      "label_sp": "RELAJADO",
+      "label_de": "ENTSPANNT",
+      "label_pt": "RELAXADO",
+      "label_en": "RELAXED",
+      "value": "relaxed"
+    },
+    {
+      "label_ar": "مجهد",
+      "label_tr": "STRES",
+      "label_rs": "Напряжение",
+      "label_ch": "压力",
+      "label_nl": "SPANNING",
+      "label_sw": "SHINIKIZO",
+      "label_sp": "ESTRÉS",
+      "label_de": "GESTRESST",
+      "label_pt": "ESTRESSE",
+      "label_en": "STRESS",
+      "value": "stress",
+      "label_fr": "STRESS"
+    }
+  ],
+  "smoking_status": [
+    {
+      "label_tr": "Tütün çiğneyen",
+      "label_ar": "تمضغ التبغ",
+      "label_fr": "Tabac à mâcher",
+      "label_rs": "Жует табак",
+      "label_ch": "咀嚼烟草",
+      "label_nl": "Neemt pruimtabak",
+      "label_sw": "Anatafuna tumbaku",
+      "label_sp": "Mastica tabaco",
+      "label_de": "Kautabak",
+      "label_pt": "Mastiga tabaco",
+      "label_en": "Chews tobacco",
+      "value": "Chews_tobacco"
+    },
+    {
+      "label_ar": "مدخن سجائر",
+      "label_tr": "Sigara içen",
+      "label_fr": "Fumeur de cigares",
+      "label_rs": "Курит сигары",
+      "label_ch": "雪茄吸烟者",
+      "label_nl": "Sigarenroker",
+      "label_sw": "Mvutaji sigara",
+      "label_sp": "Fumador de puros",
+      "label_de": "Zigarre",
+      "label_pt": "Fumante de charuto",
+      "label_en": "Cigar smoker",
+      "value": "Cigar_smoker"
+    },
+    {
+      "label_ar": "مدخن سابق",
+      "label_fr": "Ancien fumeur",
+      "label_tr": "Sigara içip bırakmış",
+      "label_rs": "Бывший курильщик",
+      "label_ch": "前吸烟者",
+      "label_nl": "Voormalig roker",
+      "label_sw": "Mvutaji sigara wa zamani",
+      "label_sp": "Exfumador",
+      "label_de": "Ehemaliger Raucher",
+      "label_pt": "Ex-fumante",
+      "label_en": "Former smoker",
+      "value": "Former_smoker"
+    },
+    {
+      "label_ar": "لم تدخن",
+      "label_tr": "Hiç sigara içmemiş",
+      "label_fr": "N'a jamais fumé",
+      "label_rs": "Никогда не курил",
+      "label_ch": "从不吸烟",
+      "label_nl": "Nooit gerookt",
+      "label_sw": "Kamwe kuvuta sigara",
+      "label_sp": "Nunca ha fumado",
+      "label_de": "Nie geraucht",
+      "label_pt": "Nunca fumou",
+      "label_en": "Never smoked",
+      "value": "Never_smoked"
+    },
+    {
+      "label_ar": "مدخن سلبي",
+      "label_fr": "Fumeur passif",
+      "label_tr": "Pasif içicilik",
+      "label_rs": "Пассивный курильщик",
+      "label_ch": "被动吸烟者",
+      "label_nl": "Passieve roker",
+      "label_sw": "mvutaji wa moshi ya sigara",
+      "label_sp": "Fumador pasivo",
+      "label_de": "Passraucher",
+      "label_pt": "Fumante passivo",
+      "label_en": "Passive smoker",
+      "value": "Passive_smoker"
+    },
+    {
+      "label_ar": "مدخن، الوضع الحالي غير معروف",
+      "label_tr": "Sigara içiyor, şu anki durumu belli değil",
+      "label_fr": "Fumeur, statut actuel inconnu",
+      "label_rs": "Курильщик, текущий статус неизвестен",
+      "label_ch": "吸烟者，当前状态未知",
+      "label_nl": "Roker, huidige status onbekend",
+      "label_sw": "Mvutaji, hali ya sasa haijulikani",
+      "label_sp": "Fumador, estado actual desconocido",
+      "label_de": "Raucher, Status unbekannt",
+      "label_pt": "Fumante, status atual desconhecido",
+      "label_en": "Smoker, current status unknown",
+      "value": "unknown"
+    },
+    {
+      "label_ar": "التدخين يوميًا",
+      "label_tr": "Her gün sigara içiyor",
+      "label_fr": "Fumer quotidiennement",
+      "label_rs": "Курение ежедневно",
+      "label_ch": "每日吸烟",
+      "label_nl": "Rookt dagelijks",
+      "label_sw": "Kuvuta kila sigara daily",
+      "label_sp": "Fumar a diario",
+      "label_de": "Raucht täglich",
+      "label_pt": "Fuma diariamente",
+      "label_en": "Smoking daily",
+      "value": "Smoking_daily"
+    },
+    {
+      "label_ar": "تعاطي بالشم",
+      "label_tr": "Enfiye kullanıcısı",
+      "label_fr": "Utilisateur de tabac à priser",
+      "label_rs": "Использует нюхательный табак",
+      "label_ch": "鼻烟用户",
+      "label_nl": "Neemt snuifgebak",
+      "label_sw": "Utumiaji ya mapua",
+      "label_sp": "Usa rapé",
+      "label_de": "Schnupftabak",
+      "label_pt": "Usa Rapé",
+      "label_en": "Snuff user",
+      "value": "Snuff_user"
+    },
+    {
+      "label_ar": "غير معروف إذا كان مدخنًا",
+      "label_tr": "Hiç sigara içmiş mi bilinmiyor",
+      "label_fr": "Inconnu si déjà fumé",
+      "label_rs": "Неизвестно, курил ли когда-нибудь",
+      "label_ch": "未知如果曾经吸烟",
+      "label_nl": "Onbekend of hij/zij ooit heeft gerookt",
+      "label_sw": "Haijulikani ikiwa imewahi kuvuta sigara",
+      "label_sp": "Se desconoce si alguna vez fumó",
+      "label_de": "Unbekannt",
+      "label_pt": "Se desconhece se fuma",
+      "label_en": "Unknown if ever smoked",
+      "value": "Unknown_if_ever_smoked"
+    }
+  ],
+  "reminder": [
+    {
+      "label_ar": "يوميًا",
+      "label_tr": "Her gün",
+      "label_fr": "Quotidiennement",
+      "label_rs": "Ежедневно",
+      "label_ch": "每日",
+      "label_nl": "Dagelijks",
+      "label_sw": "Kila siku",
+      "label_sp": "Diario",
+      "label_pt": "Diário",
+      "label_de": "Täglich",
+      "label_en": "Daily",
+      "value": "daily"
+    },
+    {
+      "label_tr": "Her ikinci gün",
+      "label_ar": "كل يومين",
+      "label_fr": "Tous les deux jours",
+      "label_rs": "Каждый 2-й день",
+      "label_ch": "每2天",
+      "label_nl": "Om de dag",
+      "label_sw": "Kila siku ya pili",
+      "label_sp": "Cada 2º día",
+      "label_pt": "A cada 2 dias",
+      "label_de": "Jeden 2. Tag",
+      "label_en": "Every 2nd day",
+      "value": "second_day"
+    },
+    {
+      "label_tr": "Her üçüncü gün",
+      "label_ar": "كل ثلاثة أيام",
+      "label_fr": "Tous les 3 jours",
+      "label_rs": "Каждый 3-й день",
+      "label_ch": "每三天",
+      "label_nl": "Elke derde dag",
+      "label_sw": "Kila siku ya tatu",
+      "label_sp": "Cada 3er día",
+      "label_pt": "A cada 3 dias",
+      "label_de": "Jeden 3. Tag",
+      "label_en": "Every 3rd day",
+      "value": "third_day"
+    },
+    {
+      "label_ar": "أسبوعيًا",
+      "label_tr": "Haftalık",
+      "label_fr": "Hebdomadaire",
+      "label_rs": "Еженедельно",
+      "label_ch": "每周",
+      "label_nl": "Wekelijks",
+      "label_sw": "Kila wiki",
+      "label_sp": "Semanal",
+      "label_pt": "Semanal",
+      "label_de": "Wöchentlich",
+      "label_en": "Weekly",
+      "value": "weekly"
+    },
+    {
+      "label_ar": "الإثنين",
+      "label_tr": "Pazartesi",
+      "label_fr": "Lundi",
+      "label_rs": "Понедельник",
+      "label_ch": "星期一",
+      "label_nl": "Maandag",
+      "label_sw": "Jumatatu",
+      "label_sp": "Lunes",
+      "label_pt": "A cada 3 dias",
+      "label_de": "Montag",
+      "label_en": "Monday",
+      "value": "monday"
+    },
+    {
+      "label_tr": "Salı",
+      "label_ar": "الثلاثاء",
+      "label_fr": "Mardi",
+      "label_rs": "Вторник",
+      "label_ch": "星期二",
+      "label_nl": "Dinsdag",
+      "label_sw": "Jumanne",
+      "label_sp": "Martes",
+      "label_pt": "Semanal",
+      "label_de": "Dienstag",
+      "label_en": "Tuesday",
+      "value": "tuesday"
+    },
+    {
+      "label_ar": "الأربعاء",
+      "label_tr": "Çarşamba",
+      "label_fr": "Mercredi",
+      "label_rs": "Среда",
+      "label_ch": "星期三",
+      "label_nl": "Woensdag",
+      "label_sw": "Jumatano",
+      "label_sp": "Miércoles",
+      "label_pt": "Segunda-feira",
+      "label_de": "Mittwoch",
+      "label_en": "Wednesday",
+      "value": "wednesday"
+    },
+    {
+      "label_ar": "الخميس",
+      "label_tr": "Perşembe",
+      "label_fr": "Jeudi",
+      "label_rs": "Четверг",
+      "label_ch": "星期四",
+      "label_nl": "Donderdag",
+      "label_sw": "Alhamisi",
+      "label_sp": "Jueves",
+      "label_pt": "Quarta-feira",
+      "label_de": "Donnerstag",
+      "label_en": "Thursday",
+      "value": "thursday"
+    },
+    {
+      "label_tr": "Cuma",
+      "label_ar": "الجمعة",
+      "label_fr": "Vendredi",
+      "label_rs": "Пятница",
+      "label_ch": "星期五",
+      "label_nl": "Vrijdag",
+      "label_sw": "Ijumaa",
+      "label_sp": "Viernes",
+      "label_pt": "Sexta-feira",
+      "label_de": "Freitag",
+      "label_en": "Friday",
+      "value": "friday"
+    },
+    {
+      "label_ar": "السبت",
+      "label_tr": "Cumartesi",
+      "label_fr": "Samedi",
+      "label_rs": "Суббота",
+      "label_ch": "星期六",
+      "label_nl": "Zaterdag",
+      "label_sw": "Jumamosi",
+      "label_sp": "Sábado",
+      "label_pt": "Sábado",
+      "label_de": "Samstag",
+      "label_en": "Saturday",
+      "value": "saturday"
+    },
+    {
+      "label_tr": "Pazar",
+      "label_ar": "الأحد",
+      "label_fr": "Dimanche",
+      "label_rs": "Воскресенье",
+      "label_ch": "星期日",
+      "label_nl": "Zondag",
+      "label_sw": "Jumapili",
+      "label_sp": "Domingo",
+      "label_pt": "Domingo",
+      "label_de": "Sonntag",
+      "label_en": "Sunday",
+      "value": "sunday"
+    }
+  ],
+  "ATC_code": [
+    {
+      "value": "A01",
+      "label": "STOMATOLOGICAL PREPARATIONS"
+    },
+    {
+      "value": "A01A",
+      "label": "STOMATOLOGICAL PREPARATIONS"
+    },
+    {
+      "value": "A",
+      "label": "ALIMENTARY TRACT AND METABOLISM"
+    },
+    {
+      "value": "A01AA",
+      "label": "Caries prophylactic agents"
+    },
+    {
+      "value": "A01AA01",
+      "label": "sodium fluoride"
+    },
+    {
+      "value": "A01AA02",
+      "label": "sodium monofluorophosphate"
+    },
+    {
+      "value": "A01AA03",
+      "label": "olaflur"
+    },
+    {
+      "value": "A01AA04",
+      "label": "stannous fluoride"
+    },
+    {
+      "value": "A01AB02",
+      "label": "hydrogen peroxide"
+    },
+    {
+      "value": "A01AA51",
+      "label": "sodium fluoride, combinations"
+    },
+    {
+      "value": "A01AB03",
+      "label": "chlorhexidine"
+    },
+    {
+      "value": "A01AB06",
+      "label": "domiphen"
+    },
+    {
+      "value": "A01AB04",
+      "label": "amphotericin B"
+    },
+    {
+      "value": "A01AB11",
+      "label": "various"
+    },
+    {
+      "value": "A01AB09",
+      "label": "miconazole"
+    },
+    {
+      "value": "A01AB16",
+      "label": "mepartricin"
+    },
+    {
+      "value": "A01AB14",
+      "label": "benzoxonium chloride"
+    },
+    {
+      "value": "A01AB19",
+      "label": "sodium perborate"
+    },
+    {
+      "value": "A01AC01",
+      "label": "triamcinolone"
+    },
+    {
+      "value": "A01AB",
+      "label": "Antiinfectives and antiseptics for local oral treatment"
+    },
+    {
+      "value": "A01AB07",
+      "label": "oxyquinoline"
+    },
+    {
+      "value": "A01AB08",
+      "label": "neomycin"
+    },
+    {
+      "value": "A01AB22",
+      "label": "doxycycline"
+    },
+    {
+      "value": "A01AB13",
+      "label": "tetracycline"
+    },
+    {
+      "value": "A01AC03",
+      "label": "hydrocortisone"
+    },
+    {
+      "value": "A01AD05",
+      "label": "acetylsalicylic acid"
+    },
+    {
+      "value": "A01AB18",
+      "label": "clotrimazole"
+    },
+    {
+      "value": "A01AA30",
+      "label": "combinations"
+    },
+    {
+      "value": "A01AD01",
+      "label": "epinephrine"
+    },
+    {
+      "value": "A02",
+      "label": "DRUGS FOR ACID RELATED DISORDERS"
+    },
+    {
+      "value": "A01AB05",
+      "label": "polynoxylin"
+    },
+    {
+      "value": "A01AC",
+      "label": "Corticosteroids for local oral treatment"
+    },
+    {
+      "value": "A02AA03",
+      "label": "magnesium peroxide"
+    },
+    {
+      "value": "A01AD08",
+      "label": "becaplermin"
+    },
+    {
+      "value": "A01AD",
+      "label": "Other agents for local oral treatment"
+    },
+    {
+      "value": "A01AB10",
+      "label": "natamycin"
+    },
+    {
+      "value": "A02AA01",
+      "label": "magnesium carbonate"
+    },
+    {
+      "value": "A01AD07",
+      "label": "amlexanox"
+    },
+    {
+      "value": "A02AA10",
+      "label": "combinations"
+    },
+    {
+      "value": "A02AA",
+      "label": "Magnesium compounds"
+    },
+    {
+      "value": "A02AA05",
+      "label": "magnesium silicate"
+    },
+    {
+      "value": "A01AB12",
+      "label": "hexetidine"
+    },
+    {
+      "value": "A02AB04",
+      "label": "dihydroxialumini sodium carbonate"
+    },
+    {
+      "value": "A02AC",
+      "label": "Calcium compounds"
+    },
+    {
+      "value": "A02AD01",
+      "label": "ordinary salt combinations"
+    },
+    {
+      "value": "A02AB01",
+      "label": "aluminium hydroxide"
+    },
+    {
+      "value": "A02AF",
+      "label": "Antacids with antiflatulents"
+    },
+    {
+      "value": "A02AX",
+      "label": "Antacids, other combinations"
+    },
+    {
+      "value": "A02AB03",
+      "label": "aluminium phosphate"
+    },
+    {
+      "value": "A02AB10",
+      "label": "combinations"
+    },
+    {
+      "value": "A02AD",
+      "label": "Combinations and complexes of aluminium, calcium and magnesium compounds"
+    },
+    {
+      "value": "A02BA03",
+      "label": "famotidine"
+    },
+    {
+      "value": "A02BA08",
+      "label": "lafutidine"
+    },
+    {
+      "value": "A02AD05",
+      "label": "almasilate"
+    },
+    {
+      "value": "A02BB02",
+      "label": "enprostil"
+    },
+    {
+      "value": "A02AH",
+      "label": "Antacids with sodium bicarbonate"
+    },
+    {
+      "value": "A02BC04",
+      "label": "rabeprazole"
+    },
+    {
+      "value": "A02BA02",
+      "label": "ranitidine"
+    },
+    {
+      "value": "A02BA07",
+      "label": "ranitidine bismuth citrate"
+    },
+    {
+      "value": "A02BB01",
+      "label": "misoprostol"
+    },
+    {
+      "value": "A02BC03",
+      "label": "lansoprazole"
+    },
+    {
+      "value": "A02BC53",
+      "label": "lansoprazole, combinations"
+    },
+    {
+      "value": "A02BD03",
+      "label": "lansoprazole, amoxicillin and metronidazole"
+    },
+    {
+      "value": "A02BD08",
+      "label": "bismuth subcitrate, tetracycline and metronidazole"
+    },
+    {
+      "value": "A02BX01",
+      "label": "carbenoxolone"
+    },
+    {
+      "value": "A02BX06",
+      "label": "proglumide"
+    },
+    {
+      "value": "A02BX11",
+      "label": "troxipide"
+    },
+    {
+      "value": "A02BX77",
+      "label": "gefarnate, combinations with psycholeptics"
+    },
+    {
+      "value": "A03AA01",
+      "label": "oxyphencyclimine"
+    },
+    {
+      "value": "A03AA07",
+      "label": "dicycloverine"
+    },
+    {
+      "value": "A03AB01",
+      "label": "benzilone"
+    },
+    {
+      "value": "A03AB06",
+      "label": "otilonium bromide"
+    },
+    {
+      "value": "A03AB11",
+      "label": "poldine"
+    },
+    {
+      "value": "A03AB16",
+      "label": "(2-benzhydryloxyethyl)diethyl-methylammonium iodide"
+    },
+    {
+      "value": "A02BC54",
+      "label": "rabeprazole, combinations"
+    },
+    {
+      "value": "A02BD04",
+      "label": "pantoprazole, amoxicillin and clarithromycin"
+    },
+    {
+      "value": "A03AB53",
+      "label": "oxyphenonium, combinations"
+    },
+    {
+      "value": "A03AD",
+      "label": "Papaverine and derivatives"
+    },
+    {
+      "value": "A03AE01",
+      "label": "alosetron"
+    },
+    {
+      "value": "A03AX03",
+      "label": "chlorbenzoxamine"
+    },
+    {
+      "value": "A03AX08",
+      "label": "alverine"
+    },
+    {
+      "value": "A03AX13",
+      "label": "silicones"
+    },
+    {
+      "value": "A02BD09",
+      "label": "lansoprazole, clarithromycin and tinidazole"
+    },
+    {
+      "value": "A02BX02",
+      "label": "sucralfate"
+    },
+    {
+      "value": "A02AB06",
+      "label": "aloglutamol"
+    },
+    {
+      "value": "A02AC02",
+      "label": "calcium silicate"
+    },
+    {
+      "value": "A01AB17",
+      "label": "metronidazole"
+    },
+    {
+      "value": "A03BA",
+      "label": "Belladonna alkaloids, tertiary amines"
+    },
+    {
+      "value": "A02AD03",
+      "label": "almagate"
+    },
+    {
+      "value": "A03BB01",
+      "label": "butylscopolamine"
+    },
+    {
+      "value": "A03C",
+      "label": "ANTISPASMODICS IN COMBINATION WITH PSYCHOLEPTICS"
+    },
+    {
+      "value": "A02AF02",
+      "label": "ordinary salt combinations and antiflatulents"
+    },
+    {
+      "value": "A02BA",
+      "label": "H2-receptor antagonists"
+    },
+    {
+      "value": "A02BX07",
+      "label": "gefarnate"
+    },
+    {
+      "value": "A02BX12",
+      "label": "bismuth subnitrate"
+    },
+    {
+      "value": "A02X",
+      "label": "OTHER DRUGS FOR ACID RELATED DISORDERS"
+    },
+    {
+      "value": "A01AB15",
+      "label": "tibezonium iodide"
+    },
+    {
+      "value": "A01AB21",
+      "label": "chlortetracycline"
+    },
+    {
+      "value": "A01AC02",
+      "label": "dexamethasone"
+    },
+    {
+      "value": "A03CA04",
+      "label": "otilonium bromide and psycholeptics"
+    },
+    {
+      "value": "A01AD02",
+      "label": "benzydamine"
+    },
+    {
+      "value": "A03CA09",
+      "label": "pipenzolate and psycholeptics"
+    },
+    {
+      "value": "A02BA05",
+      "label": "niperotidine"
+    },
+    {
+      "value": "A01AD11",
+      "label": "various"
+    },
+    {
+      "value": "A02BA53",
+      "label": "famotidine, combinations"
+    },
+    {
+      "value": "A03AA03",
+      "label": "camylofin"
+    },
+    {
+      "value": "A02BC01",
+      "label": "omeprazole"
+    },
+    {
+      "value": "A02AA02",
+      "label": "magnesium oxide"
+    },
+    {
+      "value": "A02BC06",
+      "label": "dexlansoprazole"
+    },
+    {
+      "value": "A03AA08",
+      "label": "dihexyverine"
+    },
+    {
+      "value": "A02BD01",
+      "label": "omeprazole, amoxicillin and metronidazole"
+    },
+    {
+      "value": "A03AB02",
+      "label": "glycopyrronium bromide"
+    },
+    {
+      "value": "A02BD06",
+      "label": "esomeprazole, amoxicillin and clarithromycin"
+    },
+    {
+      "value": "A03AB07",
+      "label": "methantheline"
+    },
+    {
+      "value": "A03CB02",
+      "label": "belladonna total alkaloids and psycholeptics"
+    },
+    {
+      "value": "A03AB12",
+      "label": "mepenzolate"
+    },
+    {
+      "value": "A02BD11",
+      "label": "pantoprazole, amoxicillin, clarithromycin and metronidazole"
+    },
+    {
+      "value": "A03D",
+      "label": "ANTISPASMODICS IN COMBINATION WITH ANALGESICS"
+    },
+    {
+      "value": "A02AB",
+      "label": "Aluminium compounds"
+    },
+    {
+      "value": "A02BX04",
+      "label": "methiosulfonium chloride"
+    },
+    {
+      "value": "A02AB05",
+      "label": "aluminium acetoacetate"
+    },
+    {
+      "value": "A02BX09",
+      "label": "acetoxolone"
+    },
+    {
+      "value": "A03AB17",
+      "label": "tiemonium iodide"
+    },
+    {
+      "value": "A02BX51",
+      "label": "carbenoxolone, combinations excl. psycholeptics"
+    },
+    {
+      "value": "A03DA04",
+      "label": "ciclonium and analgesics"
+    },
+    {
+      "value": "A03A",
+      "label": "DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS"
+    },
+    {
+      "value": "A03DB04",
+      "label": "butylscopolamine and analgesics"
+    },
+    {
+      "value": "A03F",
+      "label": "PROPULSIVES"
+    },
+    {
+      "value": "A03AA05",
+      "label": "trimebutine"
+    },
+    {
+      "value": "A03AC",
+      "label": "Synthetic antispasmodics, amides with tertiary amines"
+    },
+    {
+      "value": "A03AD01",
+      "label": "papaverine"
+    },
+    {
+      "value": "A03AE03",
+      "label": "cilansetron"
+    },
+    {
+      "value": "A01AB23",
+      "label": "minocycline"
+    },
+    {
+      "value": "A01AC54",
+      "label": "prednisolone, combinations"
+    },
+    {
+      "value": "A02AC01",
+      "label": "calcium carbonate"
+    },
+    {
+      "value": "A03AA30",
+      "label": "piperidolate"
+    },
+    {
+      "value": "A01AD06",
+      "label": "adrenalone"
+    },
+    {
+      "value": "A02AD02",
+      "label": "magaldrate"
+    },
+    {
+      "value": "A03AX04",
+      "label": "pinaverium"
+    },
+    {
+      "value": "A02A",
+      "label": "ANTACIDS"
+    },
+    {
+      "value": "A03AX09",
+      "label": "trepibutone"
+    },
+    {
+      "value": "A02AA04",
+      "label": "magnesium hydroxide"
+    },
+    {
+      "value": "A02AF01",
+      "label": "magaldrate and antiflatulents"
+    },
+    {
+      "value": "A03AX14",
+      "label": "valethamate"
+    },
+    {
+      "value": "A02AB02",
+      "label": "algeldrate "
+    },
+    {
+      "value": "A03BA01",
+      "label": "atropine"
+    },
+    {
+      "value": "A02B",
+      "label": "DRUGS FOR PEPTIC ULCER AND GASTRO-OESOPHAGEAL REFLUX DISEASE (GORD)"
+    },
+    {
+      "value": "A03BB02",
+      "label": "methylatropine"
+    },
+    {
+      "value": "A03CA",
+      "label": "Synthetic anticholinergic agents in combination with psycholeptics"
+    },
+    {
+      "value": "A02BA04",
+      "label": "nizatidine"
+    },
+    {
+      "value": "A03CA05",
+      "label": "glycopyrronium bromide and psycholeptics"
+    },
+    {
+      "value": "A03CA30",
+      "label": "emepronium and psycholeptics"
+    },
+    {
+      "value": "A03CB03",
+      "label": "atropine and psycholeptics"
+    },
+    {
+      "value": "A02AB07",
+      "label": "aluminium glycinate"
+    },
+    {
+      "value": "A03DA",
+      "label": "Synthetic anticholinergic agents in combination with analgesics"
+    },
+    {
+      "value": "A03DA05",
+      "label": "camylofin and analgesics"
+    },
+    {
+      "value": "A03DC",
+      "label": "Other antispasmodics in combination with analgesics"
+    },
+    {
+      "value": "A03FA",
+      "label": "Propulsives"
+    },
+    {
+      "value": "A02AC10",
+      "label": "combinations"
+    },
+    {
+      "value": "A03FA05",
+      "label": "alizapride"
+    },
+    {
+      "value": "A02AD04",
+      "label": "hydrotalcite"
+    },
+    {
+      "value": "A04AA",
+      "label": "Serotonin (5HT3) antagonists"
+    },
+    {
+      "value": "A03FA04",
+      "label": "bromopride"
+    },
+    {
+      "value": "A02AG",
+      "label": "Antacids with antispasmodics"
+    },
+    {
+      "value": "A02BA01",
+      "label": "cimetidine"
+    },
+    {
+      "value": "A02BA51",
+      "label": "cimetidine, combinations"
+    },
+    {
+      "value": "A03AB04",
+      "label": "penthienate"
+    },
+    {
+      "value": "A02BA06",
+      "label": "roxatidine"
+    },
+    {
+      "value": "A04A",
+      "label": "ANTIEMETICS AND ANTINAUSEANTS"
+    },
+    {
+      "value": "A02BB",
+      "label": "Prostaglandins"
+    },
+    {
+      "value": "A02BC02",
+      "label": "pantoprazole"
+    },
+    {
+      "value": "A02BC07",
+      "label": "dexrabeprazole"
+    },
+    {
+      "value": "A02BD02",
+      "label": "lansoprazole, tetracycline and metronidazole"
+    },
+    {
+      "value": "A02BD07",
+      "label": "lansoprazole, amoxicillin and clarithromycin"
+    },
+    {
+      "value": "A02BX",
+      "label": "Other drugs for peptic ulcer and gastro-oesophageal reflux disease (GORD)"
+    },
+    {
+      "value": "A02BX05",
+      "label": "bismuth subcitrate"
+    },
+    {
+      "value": "A02BX10",
+      "label": "zolimidine"
+    },
+    {
+      "value": "A02BX71",
+      "label": "carbenoxolone, combinations with psycholeptics"
+    },
+    {
+      "value": "A03AA",
+      "label": "Synthetic anticholinergics, esters with tertiary amino group"
+    },
+    {
+      "value": "A04AA04",
+      "label": "dolasetron"
+    },
+    {
+      "value": "A04AD02",
+      "label": "cerium oxalate"
+    },
+    {
+      "value": "A04AD12",
+      "label": "aprepitant"
+    },
+    {
+      "value": "A02BC",
+      "label": "Proton pump inhibitors"
+    },
+    {
+      "value": "A02BC05",
+      "label": "esomeprazole"
+    },
+    {
+      "value": "A03AA06",
+      "label": "rociverine"
+    },
+    {
+      "value": "A03AB09",
+      "label": "isopropamide"
+    },
+    {
+      "value": "A03AB",
+      "label": "Synthetic anticholinergics, quaternary ammonium compounds"
+    },
+    {
+      "value": "A02BD",
+      "label": "Combinations for eradication of Helicobacter pylori"
+    },
+    {
+      "value": "A03AB05",
+      "label": "propantheline"
+    },
+    {
+      "value": "A02BD05",
+      "label": "omeprazole, amoxicillin and clarithromycin"
+    },
+    {
+      "value": "A02BD10",
+      "label": "lansoprazole, amoxicillin and levofloxacin"
+    },
+    {
+      "value": "A03AB10",
+      "label": "hexocyclium"
+    },
+    {
+      "value": "A02BX03",
+      "label": "pirenzepine"
+    },
+    {
+      "value": "A03AB14",
+      "label": "pipenzolate"
+    },
+    {
+      "value": "A02BX08",
+      "label": "sulglicotide"
+    },
+    {
+      "value": "A03AB15",
+      "label": "diphemanil"
+    },
+    {
+      "value": "A02BX13",
+      "label": "alginic acid"
+    },
+    {
+      "value": "A03",
+      "label": "DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS"
+    },
+    {
+      "value": "A03AA04",
+      "label": "mebeverine"
+    },
+    {
+      "value": "A03AA09",
+      "label": "difemerine"
+    },
+    {
+      "value": "A03AB19",
+      "label": "timepidium bromide"
+    },
+    {
+      "value": "A03AB03",
+      "label": "oxyphenonium"
+    },
+    {
+      "value": "A03AB08",
+      "label": "tridihexethyl"
+    },
+    {
+      "value": "A03AB13",
+      "label": "bevonium"
+    },
+    {
+      "value": "A03AB18",
+      "label": "prifinium bromide"
+    },
+    {
+      "value": "A04AA05",
+      "label": "palonosetron"
+    },
+    {
+      "value": "A04AD04",
+      "label": "chlorobutanol"
+    },
+    {
+      "value": "A03AC02",
+      "label": "dimethylaminopropionylphenothiazine"
+    },
+    {
+      "value": "A03AD02",
+      "label": "drotaverine"
+    },
+    {
+      "value": "A03AC04",
+      "label": "nicofetamide"
+    },
+    {
+      "value": "A04AD13",
+      "label": "casopitant"
+    },
+    {
+      "value": "A03AD30",
+      "label": "moxaverine"
+    },
+    {
+      "value": "A03AB21",
+      "label": "fenpiverinium"
+    },
+    {
+      "value": "A03AX01",
+      "label": "fenpiprane"
+    },
+    {
+      "value": "A03AC05",
+      "label": "tiropramide"
+    },
+    {
+      "value": "A03AE",
+      "label": "Serotonin receptor antagonists"
+    },
+    {
+      "value": "A03AX02",
+      "label": "diisopromine"
+    },
+    {
+      "value": "A03AX07",
+      "label": "proxazole"
+    },
+    {
+      "value": "A03AX",
+      "label": "Other drugs for functional gastrointestinal disorders"
+    },
+    {
+      "value": "A03AX12",
+      "label": "phloroglucinol"
+    },
+    {
+      "value": "A03AX05",
+      "label": "fenoverine"
+    },
+    {
+      "value": "A03B",
+      "label": "BELLADONNA AND DERIVATIVES, PLAIN"
+    },
+    {
+      "value": "A03AX10",
+      "label": "isometheptene"
+    },
+    {
+      "value": "A03BB",
+      "label": "Belladonna alkaloids, semisynthetic, quaternary ammonium compounds"
+    },
+    {
+      "value": "A03AX30",
+      "label": "trimethyldiphenylpropylamine"
+    },
+    {
+      "value": "A03BA03",
+      "label": "hyoscyamine"
+    },
+    {
+      "value": "A03BB03",
+      "label": "methylscopolamine"
+    },
+    {
+      "value": "A03CA01",
+      "label": "isopropamide and psycholeptics"
+    },
+    {
+      "value": "A03CA06",
+      "label": "bevonium and psycholeptics"
+    },
+    {
+      "value": "A03CA34",
+      "label": "propantheline and psycholeptics"
+    },
+    {
+      "value": "A03CB04",
+      "label": "methylhomatropine and psycholeptics"
+    },
+    {
+      "value": "A03DA01",
+      "label": "tropenzilone and analgesics"
+    },
+    {
+      "value": "A03DA06",
+      "label": "trospium and analgesics"
+    },
+    {
+      "value": "A03E",
+      "label": "ANTISPASMODICS AND ANTICHOLINERGICS IN COMBINATION WITH OTHER DRUGS"
+    },
+    {
+      "value": "A03FA01",
+      "label": "metoclopramide"
+    },
+    {
+      "value": "A03BB05",
+      "label": "cimetropium bromide"
+    },
+    {
+      "value": "A03CA03",
+      "label": "oxyphencyclimine and psycholeptics"
+    },
+    {
+      "value": "A03CA08",
+      "label": "diphemanil and psycholeptics"
+    },
+    {
+      "value": "A03CB01",
+      "label": "methylscopolamine and psycholeptics"
+    },
+    {
+      "value": "A03CC",
+      "label": "Other antispasmodics in combination with psycholeptics"
+    },
+    {
+      "value": "A03DA03",
+      "label": "bevonium and analgesics"
+    },
+    {
+      "value": "A03AX06",
+      "label": "idanpramine"
+    },
+    {
+      "value": "A03AX11",
+      "label": "caroverine"
+    },
+    {
+      "value": "A03AX58",
+      "label": "alverine, combinations"
+    },
+    {
+      "value": "A03FA06",
+      "label": "clebopride"
+    },
+    {
+      "value": "A04AA01",
+      "label": "ondansetron"
+    },
+    {
+      "value": "A03DB",
+      "label": "Belladonna and derivatives in combination with analgesics"
+    },
+    {
+      "value": "A04AA55",
+      "label": "palonosetron, combinations"
+    },
+    {
+      "value": "A03BA04",
+      "label": "belladonna total alkaloids"
+    },
+    {
+      "value": "A04AD05",
+      "label": "metopimazine"
+    },
+    {
+      "value": "A04AD51",
+      "label": "scopolamine, combinations"
+    },
+    {
+      "value": "A03ED",
+      "label": "Antispasmodics in combination with other drugs"
+    },
+    {
+      "value": "A03FA03",
+      "label": "domperidone"
+    },
+    {
+      "value": "A04",
+      "label": "ANTIEMETICS AND ANTINAUSEANTS"
+    },
+    {
+      "value": "A04AA03",
+      "label": "tropisetron"
+    },
+    {
+      "value": "A04AD01",
+      "label": "scopolamine"
+    },
+    {
+      "value": "A04AD11",
+      "label": "nabilone"
+    },
+    {
+      "value": "A03BB04",
+      "label": "fentonium"
+    },
+    {
+      "value": "A03CA02",
+      "label": "clidinium and psycholeptics"
+    },
+    {
+      "value": "A03CA07",
+      "label": "ambutonium and psycholeptics"
+    },
+    {
+      "value": "A03CB",
+      "label": "Belladonna and derivatives in combination with psycholeptics"
+    },
+    {
+      "value": "A03CB31",
+      "label": "hyoscyamine and psycholeptics"
+    },
+    {
+      "value": "A03DA02",
+      "label": "pitofenone and analgesics"
+    },
+    {
+      "value": "A03DA07",
+      "label": "tiemonium iodide and analgesics"
+    },
+    {
+      "value": "A03EA",
+      "label": "Antispasmodics, psycholeptics and analgesics in combination"
+    },
+    {
+      "value": "A03FA02",
+      "label": "cisapride"
+    },
+    {
+      "value": "A03FA07",
+      "label": "itopride"
+    },
+    {
+      "value": "A04AA02",
+      "label": "granisetron"
+    },
+    {
+      "value": "A04AD",
+      "label": "Other antiemetics"
+    },
+    {
+      "value": "A04AD10",
+      "label": "dronabinol"
+    },
+    {
+      "value": "A04AD54",
+      "label": "chlorobutanol, combinations"
+    }
+  ],
+  "time_taken": [
+    {
+      "value": "00:10",
+      "label": "00:10"
+    },
+    {
+      "value": "00:15",
+      "label": "00:15"
+    },
+    {
+      "value": "00:00",
+      "label": "00:00"
+    },
+    {
+      "value": "00:05",
+      "label": "00:05"
+    },
+    {
+      "value": "00:20",
+      "label": "00:20"
+    },
+    {
+      "value": "00:35",
+      "label": "00:35"
+    },
+    {
+      "value": "00:40",
+      "label": "00:40"
+    },
+    {
+      "value": "01:00",
+      "label": "01:00"
+    },
+    {
+      "value": "00:30",
+      "label": "00:30"
+    },
+    {
+      "value": "00:45",
+      "label": "00:45"
+    },
+    {
+      "value": "00:25",
+      "label": "00:25"
+    },
+    {
+      "value": "00:50",
+      "label": "00:50"
+    },
+    {
+      "value": "00:55",
+      "label": "00:55"
+    },
+    {
+      "value": "01:05",
+      "label": "01:05"
+    },
+    {
+      "value": "01:10",
+      "label": "01:10"
+    },
+    {
+      "value": "01:20",
+      "label": "01:20"
+    },
+    {
+      "value": "01:25",
+      "label": "01:25"
+    },
+    {
+      "value": "01:35",
+      "label": "01:35"
+    },
+    {
+      "value": "01:45",
+      "label": "01:45"
+    },
+    {
+      "value": "01:30",
+      "label": "01:30"
+    },
+    {
+      "value": "01:50",
+      "label": "01:50"
+    },
+    {
+      "value": "02:00",
+      "label": "02:00"
+    },
+    {
+      "value": "02:15",
+      "label": "02:15"
+    },
+    {
+      "value": "02:40",
+      "label": "02:40"
+    },
+    {
+      "value": "03:05",
+      "label": "03:05"
+    },
+    {
+      "value": "01:15",
+      "label": "01:15"
+    },
+    {
+      "value": "01:40",
+      "label": "01:40"
+    },
+    {
+      "value": "03:30",
+      "label": "03:30"
+    },
+    {
+      "value": "03:55",
+      "label": "03:55"
+    },
+    {
+      "value": "04:20",
+      "label": "04:20"
+    },
+    {
+      "value": "02:10",
+      "label": "02:10"
+    },
+    {
+      "value": "02:05",
+      "label": "02:05"
+    },
+    {
+      "value": "02:25",
+      "label": "02:25"
+    },
+    {
+      "value": "02:35",
+      "label": "02:35"
+    },
+    {
+      "value": "02:50",
+      "label": "02:50"
+    },
+    {
+      "value": "04:45",
+      "label": "04:45"
+    },
+    {
+      "value": "02:30",
+      "label": "02:30"
+    },
+    {
+      "value": "01:55",
+      "label": "01:55"
+    },
+    {
+      "value": "03:15",
+      "label": "03:15"
+    },
+    {
+      "value": "02:55",
+      "label": "02:55"
+    },
+    {
+      "value": "03:00",
+      "label": "03:00"
+    },
+    {
+      "value": "05:10",
+      "label": "05:10"
+    },
+    {
+      "value": "03:25",
+      "label": "03:25"
+    },
+    {
+      "value": "02:20",
+      "label": "02:20"
+    },
+    {
+      "value": "05:35",
+      "label": "05:35"
+    },
+    {
+      "value": "02:45",
+      "label": "02:45"
+    },
+    {
+      "value": "06:00",
+      "label": "06:00"
+    },
+    {
+      "value": "03:50",
+      "label": "03:50"
+    },
+    {
+      "value": "04:15",
+      "label": "04:15"
+    },
+    {
+      "value": "03:40",
+      "label": "03:40"
+    },
+    {
+      "value": "04:40",
+      "label": "04:40"
+    },
+    {
+      "value": "03:10",
+      "label": "03:10"
+    },
+    {
+      "value": "05:05",
+      "label": "05:05"
+    },
+    {
+      "value": "03:35",
+      "label": "03:35"
+    },
+    {
+      "value": "06:25",
+      "label": "06:25"
+    },
+    {
+      "value": "04:00",
+      "label": "04:00"
+    },
+    {
+      "value": "06:50",
+      "label": "06:50"
+    },
+    {
+      "value": "05:30",
+      "label": "05:30"
+    },
+    {
+      "value": "05:55",
+      "label": "05:55"
+    },
+    {
+      "value": "07:15",
+      "label": "07:15"
+    },
+    {
+      "value": "07:40",
+      "label": "07:40"
+    },
+    {
+      "value": "08:05",
+      "label": "08:05"
+    },
+    {
+      "value": "04:05",
+      "label": "04:05"
+    },
+    {
+      "value": "04:30",
+      "label": "04:30"
+    },
+    {
+      "value": "04:55",
+      "label": "04:55"
+    },
+    {
+      "value": "05:20",
+      "label": "05:20"
+    },
+    {
+      "value": "08:30",
+      "label": "08:30"
+    },
+    {
+      "value": "05:45",
+      "label": "05:45"
+    },
+    {
+      "value": "06:20",
+      "label": "06:20"
+    },
+    {
+      "value": "06:10",
+      "label": "06:10"
+    },
+    {
+      "value": "06:45",
+      "label": "06:45"
+    },
+    {
+      "value": "04:25",
+      "label": "04:25"
+    },
+    {
+      "value": "08:55",
+      "label": "08:55"
+    },
+    {
+      "value": "07:10",
+      "label": "07:10"
+    },
+    {
+      "value": "04:50",
+      "label": "04:50"
+    },
+    {
+      "value": "07:35",
+      "label": "07:35"
+    },
+    {
+      "value": "06:35",
+      "label": "06:35"
+    },
+    {
+      "value": "08:00",
+      "label": "08:00"
+    },
+    {
+      "value": "09:20",
+      "label": "09:20"
+    },
+    {
+      "value": "08:25",
+      "label": "08:25"
+    },
+    {
+      "value": "09:45",
+      "label": "09:45"
+    },
+    {
+      "value": "07:00",
+      "label": "07:00"
+    },
+    {
+      "value": "08:50",
+      "label": "08:50"
+    },
+    {
+      "value": "07:25",
+      "label": "07:25"
+    },
+    {
+      "value": "03:20",
+      "label": "03:20"
+    },
+    {
+      "value": "07:50",
+      "label": "07:50"
+    },
+    {
+      "value": "03:45",
+      "label": "03:45"
+    },
+    {
+      "value": "08:15",
+      "label": "08:15"
+    },
+    {
+      "value": "04:10",
+      "label": "04:10"
+    },
+    {
+      "value": "09:15",
+      "label": "09:15"
+    },
+    {
+      "value": "10:10",
+      "label": "10:10"
+    },
+    {
+      "value": "05:15",
+      "label": "05:15"
+    },
+    {
+      "value": "10:35",
+      "label": "10:35"
+    },
+    {
+      "value": "11:00",
+      "label": "11:00"
+    },
+    {
+      "value": "05:40",
+      "label": "05:40"
+    },
+    {
+      "value": "04:35",
+      "label": "04:35"
+    },
+    {
+      "value": "06:05",
+      "label": "06:05"
+    },
+    {
+      "value": "08:40",
+      "label": "08:40"
+    },
+    {
+      "value": "06:30",
+      "label": "06:30"
+    },
+    {
+      "value": "05:00",
+      "label": "05:00"
+    },
+    {
+      "value": "09:40",
+      "label": "09:40"
+    },
+    {
+      "value": "06:55",
+      "label": "06:55"
+    },
+    {
+      "value": "05:25",
+      "label": "05:25"
+    },
+    {
+      "value": "05:50",
+      "label": "05:50"
+    },
+    {
+      "value": "11:25",
+      "label": "11:25"
+    },
+    {
+      "value": "11:50",
+      "label": "11:50"
+    },
+    {
+      "value": "07:20",
+      "label": "07:20"
+    },
+    {
+      "value": "07:45",
+      "label": "07:45"
+    },
+    {
+      "value": "08:10",
+      "label": "08:10"
+    },
+    {
+      "value": "09:05",
+      "label": "09:05"
+    },
+    {
+      "value": "08:35",
+      "label": "08:35"
+    },
+    {
+      "value": "09:00",
+      "label": "09:00"
+    },
+    {
+      "value": "09:25",
+      "label": "09:25"
+    },
+    {
+      "value": "09:50",
+      "label": "09:50"
+    },
+    {
+      "value": "10:15",
+      "label": "10:15"
+    },
+    {
+      "value": "10:40",
+      "label": "10:40"
+    },
+    {
+      "value": "12:15",
+      "label": "12:15"
+    },
+    {
+      "value": "12:40",
+      "label": "12:40"
+    },
+    {
+      "value": "09:30",
+      "label": "09:30"
+    },
+    {
+      "value": "06:15",
+      "label": "06:15"
+    },
+    {
+      "value": "11:05",
+      "label": "11:05"
+    },
+    {
+      "value": "06:40",
+      "label": "06:40"
+    },
+    {
+      "value": "07:05",
+      "label": "07:05"
+    },
+    {
+      "value": "11:30",
+      "label": "11:30"
+    },
+    {
+      "value": "07:30",
+      "label": "07:30"
+    },
+    {
+      "value": "07:55",
+      "label": "07:55"
+    },
+    {
+      "value": "08:20",
+      "label": "08:20"
+    },
+    {
+      "value": "08:45",
+      "label": "08:45"
+    },
+    {
+      "value": "11:55",
+      "label": "11:55"
+    },
+    {
+      "value": "12:20",
+      "label": "12:20"
+    },
+    {
+      "value": "12:45",
+      "label": "12:45"
+    },
+    {
+      "value": "13:10",
+      "label": "13:10"
+    },
+    {
+      "value": "13:35",
+      "label": "13:35"
+    },
+    {
+      "value": "14:00",
+      "label": "14:00"
+    },
+    {
+      "value": "14:25",
+      "label": "14:25"
+    },
+    {
+      "value": "13:05",
+      "label": "13:05"
+    },
+    {
+      "value": "13:30",
+      "label": "13:30"
+    },
+    {
+      "value": "13:55",
+      "label": "13:55"
+    },
+    {
+      "value": "09:55",
+      "label": "09:55"
+    },
+    {
+      "value": "14:50",
+      "label": "14:50"
+    },
+    {
+      "value": "10:05",
+      "label": "10:05"
+    },
+    {
+      "value": "14:20",
+      "label": "14:20"
+    },
+    {
+      "value": "15:15",
+      "label": "15:15"
+    },
+    {
+      "value": "15:40",
+      "label": "15:40"
+    },
+    {
+      "value": "16:05",
+      "label": "16:05"
+    },
+    {
+      "value": "16:30",
+      "label": "16:30"
+    },
+    {
+      "value": "10:30",
+      "label": "10:30"
+    },
+    {
+      "value": "10:55",
+      "label": "10:55"
+    },
+    {
+      "value": "16:55",
+      "label": "16:55"
+    },
+    {
+      "value": "11:20",
+      "label": "11:20"
+    },
+    {
+      "value": "11:45",
+      "label": "11:45"
+    },
+    {
+      "value": "12:10",
+      "label": "12:10"
+    },
+    {
+      "value": "12:35",
+      "label": "12:35"
+    },
+    {
+      "value": "13:00",
+      "label": "13:00"
+    },
+    {
+      "value": "13:25",
+      "label": "13:25"
+    },
+    {
+      "value": "13:50",
+      "label": "13:50"
+    },
+    {
+      "value": "14:15",
+      "label": "14:15"
+    },
+    {
+      "value": "14:40",
+      "label": "14:40"
+    },
+    {
+      "value": "15:05",
+      "label": "15:05"
+    },
+    {
+      "value": "15:30",
+      "label": "15:30"
+    },
+    {
+      "value": "15:55",
+      "label": "15:55"
+    },
+    {
+      "value": "09:10",
+      "label": "09:10"
+    },
+    {
+      "value": "17:20",
+      "label": "17:20"
+    },
+    {
+      "value": "16:20",
+      "label": "16:20"
+    },
+    {
+      "value": "14:45",
+      "label": "14:45"
+    },
+    {
+      "value": "16:45",
+      "label": "16:45"
+    },
+    {
+      "value": "09:35",
+      "label": "09:35"
+    },
+    {
+      "value": "17:45",
+      "label": "17:45"
+    },
+    {
+      "value": "15:10",
+      "label": "15:10"
+    },
+    {
+      "value": "10:00",
+      "label": "10:00"
+    },
+    {
+      "value": "15:35",
+      "label": "15:35"
+    },
+    {
+      "value": "10:25",
+      "label": "10:25"
+    },
+    {
+      "value": "16:00",
+      "label": "16:00"
+    },
+    {
+      "value": "18:10",
+      "label": "18:10"
+    },
+    {
+      "value": "10:50",
+      "label": "10:50"
+    },
+    {
+      "value": "17:10",
+      "label": "17:10"
+    },
+    {
+      "value": "18:35",
+      "label": "18:35"
+    },
+    {
+      "value": "11:15",
+      "label": "11:15"
+    },
+    {
+      "value": "11:40",
+      "label": "11:40"
+    },
+    {
+      "value": "10:20",
+      "label": "10:20"
+    },
+    {
+      "value": "19:00",
+      "label": "19:00"
+    },
+    {
+      "value": "10:45",
+      "label": "10:45"
+    },
+    {
+      "value": "19:25",
+      "label": "19:25"
+    },
+    {
+      "value": "11:10",
+      "label": "11:10"
+    },
+    {
+      "value": "11:35",
+      "label": "11:35"
+    },
+    {
+      "value": "12:00",
+      "label": "12:00"
+    },
+    {
+      "value": "12:25",
+      "label": "12:25"
+    },
+    {
+      "value": "19:50",
+      "label": "19:50"
+    },
+    {
+      "value": "12:50",
+      "label": "12:50"
+    },
+    {
+      "value": "20:15",
+      "label": "20:15"
+    },
+    {
+      "value": "13:15",
+      "label": "13:15"
+    },
+    {
+      "value": "13:40",
+      "label": "13:40"
+    },
+    {
+      "value": "14:05",
+      "label": "14:05"
+    },
+    {
+      "value": "12:05",
+      "label": "12:05"
+    },
+    {
+      "value": "14:30",
+      "label": "14:30"
+    },
+    {
+      "value": "14:55",
+      "label": "14:55"
+    },
+    {
+      "value": "15:20",
+      "label": "15:20"
+    },
+    {
+      "value": "15:45",
+      "label": "15:45"
+    },
+    {
+      "value": "16:10",
+      "label": "16:10"
+    },
+    {
+      "value": "16:35",
+      "label": "16:35"
+    },
+    {
+      "value": "17:00",
+      "label": "17:00"
+    },
+    {
+      "value": "17:25",
+      "label": "17:25"
+    },
+    {
+      "value": "20:40",
+      "label": "20:40"
+    },
+    {
+      "value": "21:05",
+      "label": "21:05"
+    },
+    {
+      "value": "17:50",
+      "label": "17:50"
+    },
+    {
+      "value": "18:15",
+      "label": "18:15"
+    },
+    {
+      "value": "18:40",
+      "label": "18:40"
+    },
+    {
+      "value": "21:30",
+      "label": "21:30"
+    },
+    {
+      "value": "21:55",
+      "label": "21:55"
+    },
+    {
+      "value": "22:20",
+      "label": "22:20"
+    },
+    {
+      "value": "22:45",
+      "label": "22:45"
+    },
+    {
+      "value": "23:10",
+      "label": "23:10"
+    },
+    {
+      "value": "23:35",
+      "label": "23:35"
+    },
+    {
+      "value": "12:30",
+      "label": "12:30"
+    },
+    {
+      "value": "12:55",
+      "label": "12:55"
+    },
+    {
+      "value": "17:35",
+      "label": "17:35"
+    },
+    {
+      "value": "18:00",
+      "label": "18:00"
+    },
+    {
+      "value": "18:25",
+      "label": "18:25"
+    },
+    {
+      "value": "18:50",
+      "label": "18:50"
+    },
+    {
+      "value": "19:15",
+      "label": "19:15"
+    },
+    {
+      "value": "19:40",
+      "label": "19:40"
+    },
+    {
+      "value": "19:05",
+      "label": "19:05"
+    },
+    {
+      "value": "19:30",
+      "label": "19:30"
+    },
+    {
+      "value": "19:55",
+      "label": "19:55"
+    },
+    {
+      "value": "20:20",
+      "label": "20:20"
+    },
+    {
+      "value": "20:45",
+      "label": "20:45"
+    },
+    {
+      "value": "21:10",
+      "label": "21:10"
+    },
+    {
+      "value": "21:35",
+      "label": "21:35"
+    },
+    {
+      "value": "22:00",
+      "label": "22:00"
+    },
+    {
+      "value": "22:25",
+      "label": "22:25"
+    },
+    {
+      "value": "22:50",
+      "label": "22:50"
+    },
+    {
+      "value": "23:15",
+      "label": "23:15"
+    },
+    {
+      "value": "23:40",
+      "label": "23:40"
+    },
+    {
+      "value": "20:05",
+      "label": "20:05"
+    },
+    {
+      "value": "20:30",
+      "label": "20:30"
+    },
+    {
+      "value": "20:55",
+      "label": "20:55"
+    },
+    {
+      "value": "21:20",
+      "label": "21:20"
+    },
+    {
+      "value": "21:45",
+      "label": "21:45"
+    },
+    {
+      "value": "16:25",
+      "label": "16:25"
+    },
+    {
+      "value": "16:50",
+      "label": "16:50"
+    },
+    {
+      "value": "17:15",
+      "label": "17:15"
+    },
+    {
+      "value": "17:40",
+      "label": "17:40"
+    },
+    {
+      "value": "18:05",
+      "label": "18:05"
+    },
+    {
+      "value": "18:30",
+      "label": "18:30"
+    },
+    {
+      "value": "18:55",
+      "label": "18:55"
+    },
+    {
+      "value": "19:20",
+      "label": "19:20"
+    },
+    {
+      "value": "19:45",
+      "label": "19:45"
+    },
+    {
+      "value": "22:10",
+      "label": "22:10"
+    },
+    {
+      "value": "22:35",
+      "label": "22:35"
+    },
+    {
+      "value": "23:00",
+      "label": "23:00"
+    },
+    {
+      "value": "23:25",
+      "label": "23:25"
+    },
+    {
+      "value": "23:50",
+      "label": "23:50"
+    },
+    {
+      "value": "20:10",
+      "label": "20:10"
+    },
+    {
+      "value": "20:35",
+      "label": "20:35"
+    },
+    {
+      "value": "21:00",
+      "label": "21:00"
+    },
+    {
+      "value": "21:25",
+      "label": "21:25"
+    },
+    {
+      "value": "21:50",
+      "label": "21:50"
+    },
+    {
+      "value": "22:15",
+      "label": "22:15"
+    },
+    {
+      "value": "22:40",
+      "label": "22:40"
+    },
+    {
+      "value": "23:05",
+      "label": "23:05"
+    },
+    {
+      "value": "23:30",
+      "label": "23:30"
+    },
+    {
+      "value": "23:55",
+      "label": "23:55"
+    },
+    {
+      "value": "13:20",
+      "label": "13:20"
+    },
+    {
+      "value": "13:45",
+      "label": "13:45"
+    },
+    {
+      "value": "14:10",
+      "label": "14:10"
+    },
+    {
+      "value": "14:35",
+      "label": "14:35"
+    },
+    {
+      "value": "15:00",
+      "label": "15:00"
+    },
+    {
+      "value": "15:25",
+      "label": "15:25"
+    },
+    {
+      "value": "15:50",
+      "label": "15:50"
+    },
+    {
+      "value": "16:15",
+      "label": "16:15"
+    },
+    {
+      "value": "16:40",
+      "label": "16:40"
+    },
+    {
+      "value": "17:05",
+      "label": "17:05"
+    },
+    {
+      "value": "17:30",
+      "label": "17:30"
+    },
+    {
+      "value": "17:55",
+      "label": "17:55"
+    },
+    {
+      "value": "18:20",
+      "label": "18:20"
+    },
+    {
+      "value": "18:45",
+      "label": "18:45"
+    },
+    {
+      "value": "19:10",
+      "label": "19:10"
+    },
+    {
+      "value": "19:35",
+      "label": "19:35"
+    },
+    {
+      "value": "20:00",
+      "label": "20:00"
+    },
+    {
+      "value": "20:25",
+      "label": "20:25"
+    },
+    {
+      "value": "20:50",
+      "label": "20:50"
+    },
+    {
+      "value": "21:15",
+      "label": "21:15"
+    },
+    {
+      "value": "21:40",
+      "label": "21:40"
+    },
+    {
+      "value": "22:05",
+      "label": "22:05"
+    },
+    {
+      "value": "22:30",
+      "label": "22:30"
+    },
+    {
+      "value": "22:55",
+      "label": "22:55"
+    },
+    {
+      "value": "23:20",
+      "label": "23:20"
+    },
+    {
+      "value": "23:45",
+      "label": "23:45"
+    }
+  ],
+  "relation": [
+    {
+      "value": "daughter",
+      "label_en": "Daughter",
+      "label_pt": "Filha",
+      "label_de": "Tochter",
+      "label_sp": "Hija",
+      "label_sw": "Binti",
+      "label_nl": "Dochter",
+      "label_ch": "女儿",
+      "label_rs": "Дочь",
+      "label_fr": "Daughter",
+      "label_ar": "ابنة",
+      "label_tr": "Kız evlat"
+    },
+    {
+      "value": "grandson",
+      "label_en": "Grandson",
+      "label_pt": "Neto",
+      "label_de": "Enkel",
+      "label_sp": "Nieto",
+      "label_sw": "Mjukuu wa kiume",
+      "label_nl": "Kleinzoon",
+      "label_ch": "孙子",
+      "label_rs": "Внук",
+      "label_fr": "petit-fils",
+      "label_ar": "حفيد",
+      "label_tr": "Erkek torun"
+    },
+    {
+      "value": "great_grandfather",
+      "label_en": "Great grandfather",
+      "label_pt": "Bisavô",
+      "label_de": "Urgroßvater",
+      "label_sp": "Bisabuelo",
+      "label_sw": "Babu mkubwa",
+      "label_nl": "Overgrootvader",
+      "label_ch": "曾祖父",
+      "label_rs": "Прадедушка",
+      "label_fr": "arrière_grand-père",
+      "label_ar": "الجد الأكبر ",
+      "label_tr": "Büyükbabanın babası"
+    },
+    {
+      "value": "granddaughter",
+      "label_en": "Granddaughter",
+      "label_pt": "Neta",
+      "label_de": "Enkelin",
+      "label_sp": "Nieta",
+      "label_sw": "Mjukuu wa kike",
+      "label_nl": "Kleindochter",
+      "label_ch": "孙女",
+      "label_rs": "Внучка",
+      "label_fr": "petite-fille",
+      "label_ar": "حفيدة",
+      "label_tr": "Kız torun"
+    },
+    {
+      "value": "son",
+      "label_en": "Son",
+      "label_pt": "Filho",
+      "label_de": "Sohn",
+      "label_sp": "Hijo",
+      "label_sw": "Mwana",
+      "label_nl": "Zoon",
+      "label_ch": "儿子",
+      "label_rs": "Сын",
+      "label_fr": "fils",
+      "label_ar": "ابن",
+      "label_tr": "Erkek evlat"
+    },
+    {
+      "value": "great_grandmother",
+      "label_en": "Great grandmother",
+      "label_pt": "Bisavó",
+      "label_de": "Urgroßmutter",
+      "label_sp": "Bisabuela",
+      "label_sw": "Mama mkubwa",
+      "label_nl": "Overgrootmoeder",
+      "label_ch": "曾祖母",
+      "label_rs": "Прабабушка",
+      "label_fr": "arrière_grand-mère",
+      "label_ar": "الجدة الكبرى",
+      "label_tr": "Büyükannenin annesi"
+    },
+    {
+      "value": "mother",
+      "label_en": "Mother",
+      "label_pt": "Mãe",
+      "label_de": "Mutter",
+      "label_sp": "Madre",
+      "label_sw": "Mama",
+      "label_nl": "Moeder",
+      "label_ch": "母亲",
+      "label_rs": "Мать",
+      "label_fr": "mère",
+      "label_ar": "أم",
+      "label_tr": "Anne"
+    },
+    {
+      "value": "niece",
+      "label_en": "Niece",
+      "label_pt": "Sobrinha",
+      "label_de": "Nichte",
+      "label_sp": "Sobrina",
+      "label_sw": "Mpwa wa kike",
+      "label_nl": "Nicht",
+      "label_ch": "侄女",
+      "label_rs": "Племянница",
+      "label_fr": "nièce",
+      "label_ar": "أبنة الأخ أو الأخت",
+      "label_tr": "Kız yeğen"
+    },
+    {
+      "value": "grandfather",
+      "label_en": "Grandfather",
+      "label_pt": "Avô",
+      "label_de": "Großvater",
+      "label_sp": "Abuelo",
+      "label_sw": "Babu",
+      "label_nl": "Opa",
+      "label_ch": "祖父",
+      "label_rs": "Дедушка",
+      "label_fr": "grand-père",
+      "label_ar": "جد",
+      "label_tr": "Büyükbaba"
+    },
+    {
+      "value": "father",
+      "label_en": "Father",
+      "label_pt": "Pai",
+      "label_de": "Vater",
+      "label_sp": "Padre",
+      "label_sw": "Baba",
+      "label_nl": "Vader",
+      "label_ch": "父亲",
+      "label_rs": "Отец",
+      "label_fr": "père",
+      "label_ar": "أب",
+      "label_tr": "Baba"
+    },
+    {
+      "value": "brother",
+      "label_en": "Brother",
+      "label_pt": "Irmão",
+      "label_de": "Bruder",
+      "label_sp": "Hermano",
+      "label_sw": "Kaka",
+      "label_nl": "Broer",
+      "label_ch": "兄弟",
+      "label_rs": "Брат",
+      "label_fr": "frère",
+      "label_ar": "أخ",
+      "label_tr": "Erkek kardeş"
+    },
+    {
+      "value": "uncle",
+      "label_en": "Uncle",
+      "label_pt": "Tio",
+      "label_de": "Onkel",
+      "label_sp": "Tío",
+      "label_sw": "Mjomba",
+      "label_nl": "Oom",
+      "label_ch": "叔叔",
+      "label_rs": "Дядя",
+      "label_fr": "oncle",
+      "label_ar": "عم",
+      "label_tr": "Amca"
+    },
+    {
+      "value": "husband",
+      "label_en": "Husband",
+      "label_pt": "Marido",
+      "label_de": "Ehemann",
+      "label_sp": "Esposo",
+      "label_sw": "Mume",
+      "label_nl": "Echtgenoot",
+      "label_ch": "丈夫",
+      "label_rs": "Муж",
+      "label_fr": "mari",
+      "label_ar": "زوج",
+      "label_tr": "Koca"
+    },
+    {
+      "value": "wife",
+      "label_en": "Wife",
+      "label_de": "Ehefrau",
+      "label_pt": "Esposa",
+      "label_sp": "Esposa",
+      "label_sw": "Bibi",
+      "label_nl": "Echtgenote",
+      "label_ch": "妻子",
+      "label_rs": "Жена",
+      "label_fr": "épouse",
+      "label_ar": "زوجة",
+      "label_tr": "Eş"
+    },
+    {
+      "value": "grandmother",
+      "label_en": "Grandmother",
+      "label_de": "Großmutter",
+      "label_pt": "Avó",
+      "label_sp": "Abuela",
+      "label_sw": "Nyanya",
+      "label_nl": "Oma",
+      "label_ch": "祖母",
+      "label_rs": "Бабушка",
+      "label_fr": "Grand-mère",
+      "label_ar": "جدة",
+      "label_tr": "Büyükanne"
+    },
+    {
+      "value": "aunt",
+      "label_en": "Aunt",
+      "label_de": "Tante",
+      "label_pt": "Tia",
+      "label_sp": "Tía",
+      "label_sw": "Shangazi",
+      "label_nl": "Tante",
+      "label_ch": "阿姨",
+      "label_rs": "Тетя",
+      "label_fr": "tante",
+      "label_ar": "عمة/خالة",
+      "label_tr": "Teyze"
+    },
+    {
+      "value": "nephew",
+      "label_en": "Nephew",
+      "label_de": "Neffe",
+      "label_pt": "Sobrinho",
+      "label_sp": "Sobrino",
+      "label_sw": "Mpwa wa kiume",
+      "label_nl": "Neef",
+      "label_ch": "侄子",
+      "label_rs": "Племянник",
+      "label_fr": "neveu",
+      "label_ar": "إبن الأخ أو الأ خت",
+      "label_tr": "Erkek yeğen"
+    },
+    {
+      "value": "sister",
+      "label_en": "Sister",
+      "label_pt": "Irmã",
+      "label_de": "Schwester",
+      "label_sp": "Hermana",
+      "label_sw": "Dada",
+      "label_nl": "Zus",
+      "label_ch": "妹妹",
+      "label_rs": "Сестра",
+      "label_fr": "sœur",
+      "label_ar": "أخت",
+      "label_tr": "Kız kardeş"
+    },
+    {
+      "value": "cousin_male",
+      "label_pt": "Primo",
+      "label_en": "Cousin (Male)",
+      "label_de": "Cousin",
+      "label_sp": "Primo",
+      "label_sw": "binamu_mwanaume",
+      "label_nl": "Neef",
+      "label_ch": "表哥(男)",
+      "label_rs": "Двоюродный брат",
+      "label_fr": "Cousin (homme)",
+      "label_ar": "ابن العم/الخال",
+      "label_tr": "Kuzen (Erkek)"
+    },
+    {
+      "value": "cousin_female",
+      "label_pt": "Prima",
+      "label_en": "Cousin (Female)",
+      "label_de": "Cousine",
+      "label_sp": "Prima",
+      "label_sw": "binamu_wa kike",
+      "label_nl": "Nicht",
+      "label_ch": "表妹(女)",
+      "label_rs": "Двоюродная сестра",
+      "label_fr": "Cousin (femme)",
+      "label_ar": "ابنة العم/الخال",
+      "label_tr": "Kuzen (kız)"
+    }
+  ],
+  "languages": [
+    {
+      "label": "Acholi",
+      "value": "Acholi"
+    },
+    {
+      "label": "Afrikaans",
+      "value": "Afrikaans"
+    },
+    {
+      "label": "Akan",
+      "value": "Akan"
+    },
+    {
+      "label": "Albanian",
+      "value": "Albanian"
+    },
+    {
+      "label": "Amharic",
+      "value": "Amharic"
+    },
+    {
+      "label": "Arabic",
+      "value": "Arabic"
+    },
+    {
+      "label": "Ashante",
+      "value": "Ashante"
+    },
+    {
+      "label": "Asl",
+      "value": "Asl"
+    },
+    {
+      "label": "Assyrian",
+      "value": "Assyrian"
+    },
+    {
+      "label": "Azerbaijani",
+      "value": "Azerbaijani"
+    },
+    {
+      "label": "Azeri",
+      "value": "Azeri"
+    },
+    {
+      "label": "Bajuni",
+      "value": "Bajuni"
+    },
+    {
+      "label": "Basque",
+      "value": "Basque"
+    },
+    {
+      "label": "Behdini",
+      "value": "Behdini"
+    },
+    {
+      "label": "Belorussian",
+      "value": "Belorussian"
+    },
+    {
+      "label": "Bengali",
+      "value": "Bengali"
+    },
+    {
+      "label": "Berber",
+      "value": "Berber"
+    },
+    {
+      "label": "Bosnian",
+      "value": "Bosnian"
+    },
+    {
+      "label": "Bravanese",
+      "value": "Bravanese"
+    },
+    {
+      "label": "Bulgarian",
+      "value": "Bulgarian"
+    },
+    {
+      "label": "Burmese",
+      "value": "Burmese"
+    },
+    {
+      "label": "Cakchiquel",
+      "value": "Cakchiquel"
+    },
+    {
+      "label": "Cambodian",
+      "value": "Cambodian"
+    },
+    {
+      "label": "Cantonese",
+      "value": "Cantonese"
+    },
+    {
+      "label": "Catalan",
+      "value": "Catalan"
+    },
+    {
+      "label": "Chaldean",
+      "value": "Chaldean"
+    },
+    {
+      "label": "Chamorro",
+      "value": "Chamorro"
+    },
+    {
+      "label": "Chao-chow",
+      "value": "Chao_chow"
+    },
+    {
+      "label": "Chavacano",
+      "value": "Chavacano"
+    },
+    {
+      "label": "Chin",
+      "value": "Chin"
+    },
+    {
+      "label": "Chuukese",
+      "value": "Chuukese"
+    },
+    {
+      "label": "Cree",
+      "value": "Cree"
+    },
+    {
+      "label": "Croatian",
+      "value": "Croatian"
+    },
+    {
+      "label": "Czech",
+      "value": "Czech"
+    },
+    {
+      "label": "Dakota",
+      "value": "Dakota"
+    },
+    {
+      "label": "Danish",
+      "value": "Danish"
+    },
+    {
+      "label": "Dari",
+      "value": "Dari"
+    },
+    {
+      "label": "Dinka",
+      "value": "Dinka"
+    },
+    {
+      "label": "Diula",
+      "value": "Diula"
+    },
+    {
+      "label": "Dutch",
+      "value": "Dutch"
+    },
+    {
+      "label": "Edo",
+      "value": "Edo"
+    },
+    {
+      "label": "English",
+      "value": "English"
+    },
+    {
+      "label": "Estonian",
+      "value": "Estonian"
+    },
+    {
+      "label": "Ewe",
+      "value": "Ewe"
+    },
+    {
+      "label": "Fante",
+      "value": "Fante"
+    },
+    {
+      "label": "Farsi",
+      "value": "Farsi"
+    },
+    {
+      "label": "Fijian Hindi",
+      "value": "Fijian_Hindi"
+    },
+    {
+      "label": "Finnish",
+      "value": "Finnish"
+    },
+    {
+      "label": "Flemish",
+      "value": "Flemish"
+    },
+    {
+      "label": "French",
+      "value": "French"
+    },
+    {
+      "label": "French Canadian",
+      "value": "French_Canadian"
+    },
+    {
+      "label": "Fukienese",
+      "value": "Fukienese"
+    },
+    {
+      "label": "Fula",
+      "value": "Fula"
+    },
+    {
+      "label": "Fulani",
+      "value": "Fulani"
+    },
+    {
+      "label": "Fuzhou",
+      "value": "Fuzhou"
+    },
+    {
+      "label": "Ga",
+      "value": "Ga"
+    },
+    {
+      "label": "Gaddang",
+      "value": "Gaddang"
+    },
+    {
+      "label": "Gaelic",
+      "value": "Gaelic"
+    },
+    {
+      "label": "Gaelic-irish",
+      "value": "Gaelic_irish"
+    },
+    {
+      "label": "Gaelic-scottish",
+      "value": "Gaelic_scottish"
+    },
+    {
+      "label": "Georgian",
+      "value": "Georgian"
+    },
+    {
+      "label": "German",
+      "value": "German"
+    },
+    {
+      "label": "Gorani",
+      "value": "Gorani"
+    },
+    {
+      "label": "Greek",
+      "value": "Greek"
+    },
+    {
+      "label": "Gujarati",
+      "value": "Gujarati"
+    },
+    {
+      "label": "Haitian Creole",
+      "value": "Haitian_Creole"
+    },
+    {
+      "label": "Hakka",
+      "value": "Hakka"
+    },
+    {
+      "label": "Hakka-chinese",
+      "value": "Hakka_chinese"
+    },
+    {
+      "label": "Hausa",
+      "value": "Hausa"
+    },
+    {
+      "label": "Hebrew",
+      "value": "Hebrew"
+    },
+    {
+      "label": "Hindi",
+      "value": "Hindi"
+    },
+    {
+      "label": "Hmong",
+      "value": "Hmong"
+    },
+    {
+      "label": "Hungarian",
+      "value": "Hungarian"
+    },
+    {
+      "label": "Ibanag",
+      "value": "Ibanag"
+    },
+    {
+      "label": "Ibo",
+      "value": "Ibo"
+    },
+    {
+      "label": "Icelandic",
+      "value": "Icelandic"
+    },
+    {
+      "label": "Igbo",
+      "value": "Igbo"
+    },
+    {
+      "label": "Ilocano",
+      "value": "Ilocano"
+    },
+    {
+      "label": "Indonesian",
+      "value": "Indonesian"
+    },
+    {
+      "label": "Inuktitut",
+      "value": "Inuktitut"
+    },
+    {
+      "label": "Italian",
+      "value": "Italian"
+    },
+    {
+      "label": "Jakartanese",
+      "value": "Jakartanese"
+    },
+    {
+      "label": "Japanese",
+      "value": "Japanese"
+    },
+    {
+      "label": "Javanese",
+      "value": "Javanese"
+    },
+    {
+      "label": "Kanjobal",
+      "value": "Kanjobal"
+    },
+    {
+      "label": "Karen",
+      "value": "Karen"
+    },
+    {
+      "label": "Karenni",
+      "value": "Karenni"
+    },
+    {
+      "label": "Kashmiri",
+      "value": "Kashmiri"
+    },
+    {
+      "label": "Kazakh",
+      "value": "Kazakh"
+    },
+    {
+      "label": "Kikuyu",
+      "value": "Kikuyu"
+    },
+    {
+      "label": "Kinyarwanda",
+      "value": "Kinyarwanda"
+    },
+    {
+      "label": "Kirundi",
+      "value": "Kirundi"
+    },
+    {
+      "label": "Korean",
+      "value": "Korean"
+    },
+    {
+      "label": "Kosovan",
+      "value": "Kosovan"
+    },
+    {
+      "label": "Kotokoli",
+      "value": "Kotokoli"
+    },
+    {
+      "label": "Krio",
+      "value": "Krio"
+    },
+    {
+      "label": "Kurdish",
+      "value": "Kurdish"
+    },
+    {
+      "label": "Kurmanji",
+      "value": "Kurmanji"
+    },
+    {
+      "label": "Kyrgyz",
+      "value": "Kyrgyz"
+    },
+    {
+      "label": "Lakota",
+      "value": "Lakota"
+    },
+    {
+      "label": "Laotian",
+      "value": "Laotian"
+    },
+    {
+      "label": "Latvian",
+      "value": "Latvian"
+    },
+    {
+      "label": "Lingala",
+      "value": "Lingala"
+    },
+    {
+      "label": "Lithuanian",
+      "value": "Lithuanian"
+    },
+    {
+      "label": "Luganda",
+      "value": "Luganda"
+    },
+    {
+      "label": "Luo",
+      "value": "Luo"
+    },
+    {
+      "label": "Maay",
+      "value": "Maay"
+    },
+    {
+      "label": "Macedonian",
+      "value": "Macedonian"
+    },
+    {
+      "label": "Malay",
+      "value": "Malay"
+    },
+    {
+      "label": "Malayalam",
+      "value": "Malayalam"
+    },
+    {
+      "label": "Maltese",
+      "value": "Maltese"
+    },
+    {
+      "label": "Mandarin",
+      "value": "Mandarin"
+    },
+    {
+      "label": "Mandingo",
+      "value": "Mandingo"
+    },
+    {
+      "label": "Mandinka",
+      "value": "Mandinka"
+    },
+    {
+      "label": "Marathi",
+      "value": "Marathi"
+    },
+    {
+      "label": "Marshallese",
+      "value": "Marshallese"
+    },
+    {
+      "label": "Mien",
+      "value": "Mien"
+    },
+    {
+      "label": "Mina",
+      "value": "Mina"
+    },
+    {
+      "label": "Mirpuri",
+      "value": "Mirpuri"
+    },
+    {
+      "label": "Mixteco",
+      "value": "Mixteco"
+    },
+    {
+      "label": "Moldavan",
+      "value": "Moldavan"
+    },
+    {
+      "label": "Mongolian",
+      "value": "Mongolian"
+    },
+    {
+      "label": "Montenegrin",
+      "value": "Montenegrin"
+    },
+    {
+      "label": "Navajo",
+      "value": "Navajo"
+    },
+    {
+      "label": "Neapolitan",
+      "value": "Neapolitan"
+    },
+    {
+      "label": "Nepali",
+      "value": "Nepali"
+    },
+    {
+      "label": "Nigerian Pidgin",
+      "value": "Nigerian_Pidgin"
+    },
+    {
+      "label": "Norwegian",
+      "value": "Norwegian"
+    },
+    {
+      "label": "Oromo",
+      "value": "Oromo"
+    },
+    {
+      "label": "Pahari",
+      "value": "Pahari"
+    },
+    {
+      "label": "Papago",
+      "value": "Papago"
+    },
+    {
+      "label": "Papiamento",
+      "value": "Papiamento"
+    },
+    {
+      "label": "Pashto",
+      "value": "Pashto"
+    },
+    {
+      "label": "Patois",
+      "value": "Patois"
+    },
+    {
+      "label": "Pidgin English",
+      "value": "Pidgin_English"
+    },
+    {
+      "label": "Polish",
+      "value": "Polish"
+    },
+    {
+      "label": "Portug.creole",
+      "value": "Portug_creole"
+    },
+    {
+      "label": "Portuguese",
+      "value": "Portuguese"
+    },
+    {
+      "label": "Pothwari",
+      "value": "Pothwari"
+    },
+    {
+      "label": "Pulaar",
+      "value": "Pulaar"
+    },
+    {
+      "label": "Punjabi",
+      "value": "Punjabi"
+    },
+    {
+      "label": "Putian",
+      "value": "Putian"
+    },
+    {
+      "label": "Quichua",
+      "value": "Quichua"
+    },
+    {
+      "label": "Romanian",
+      "value": "Romanian"
+    },
+    {
+      "label": "Russian",
+      "value": "Russian"
+    },
+    {
+      "label": "Samoan",
+      "value": "Samoan"
+    },
+    {
+      "label": "Serbian",
+      "value": "Serbian"
+    },
+    {
+      "label": "Shanghainese",
+      "value": "Shanghainese"
+    },
+    {
+      "label": "Shona",
+      "value": "Shona"
+    },
+    {
+      "label": "Sichuan",
+      "value": "Sichuan"
+    },
+    {
+      "label": "Sicilian",
+      "value": "Sicilian"
+    },
+    {
+      "label": "Sinhalese",
+      "value": "Sinhalese"
+    },
+    {
+      "label": "Slovakia",
+      "value": "Slovakia"
+    },
+    {
+      "label": "Slovenian",
+      "value": "Slovenian"
+    },
+    {
+      "label": "Somali",
+      "value": "Somali"
+    },
+    {
+      "label": "Sorani",
+      "value": "Sorani"
+    },
+    {
+      "label": "Spanish",
+      "value": "Spanish"
+    },
+    {
+      "label": "Sudanese Arabic",
+      "value": "Sudanese_Arabic"
+    },
+    {
+      "label": "Sundanese",
+      "value": "Sundanese"
+    },
+    {
+      "label": "Susu",
+      "value": "Susu"
+    },
+    {
+      "label": "Swahili",
+      "value": "Swahili"
+    },
+    {
+      "label": "Swedish",
+      "value": "Swedish"
+    },
+    {
+      "label": "Sylhetti",
+      "value": "Sylhetti"
+    },
+    {
+      "label": "Tagalog",
+      "value": "Tagalog"
+    },
+    {
+      "label": "Taiwanese",
+      "value": "Taiwanese"
+    },
+    {
+      "label": "Tajik",
+      "value": "Tajik"
+    },
+    {
+      "label": "Tamil",
+      "value": "Tamil"
+    },
+    {
+      "label": "Telugu",
+      "value": "Telugu"
+    },
+    {
+      "label": "Thai",
+      "value": "Thai"
+    },
+    {
+      "label": "Tibetan",
+      "value": "Tibetan"
+    },
+    {
+      "label": "Tigre",
+      "value": "Tigre"
+    },
+    {
+      "label": "Tigrinya",
+      "value": "Tigrinya"
+    },
+    {
+      "label": "Toishanese",
+      "value": "Toishanese"
+    },
+    {
+      "label": "Tongan",
+      "value": "Tongan"
+    },
+    {
+      "label": "Toucouleur",
+      "value": "Toucouleur"
+    },
+    {
+      "label": "Trique",
+      "value": "Trique"
+    },
+    {
+      "label": "Tshiluba",
+      "value": "Tshiluba"
+    },
+    {
+      "label": "Turkish",
+      "value": "Turkish"
+    },
+    {
+      "label": "Twi",
+      "value": "Twi"
+    },
+    {
+      "label": "Ukrainian",
+      "value": "Ukrainian"
+    },
+    {
+      "label": "Urdu",
+      "value": "Urdu"
+    },
+    {
+      "label": "Uyghur",
+      "value": "Uyghur"
+    },
+    {
+      "label": "Uzbek",
+      "value": "Uzbek"
+    },
+    {
+      "label": "Vietnamese",
+      "value": "Vietnamese"
+    },
+    {
+      "label": "Visayan",
+      "value": "Visayan"
+    },
+    {
+      "label": "Welsh",
+      "value": "Welsh"
+    },
+    {
+      "label": "Wolof",
+      "value": "Wolof"
+    },
+    {
+      "label": "Yiddish",
+      "value": "Yiddish"
+    },
+    {
+      "label": "Yoruba",
+      "value": "Yoruba"
+    },
+    {
+      "label": "Yupik",
+      "value": "Yupik"
+    }
+  ],
+  "Temprature": [
+    {
+      "value": "C",
+      "label": "°C"
+    },
+    {
+      "value": "F",
+      "label": "°F"
+    }
+  ],
+  "tissue": [
+    {
+      "label_rs": "Сердце",
+      "label_tr": "Kalp",
+      "label_nl": "Hart",
+      "label_de": "Herz",
+      "value": "Heart",
+      "label_en": "Heart",
+      "label_pt": "Coração",
+      "label_sp": "Corazón",
+      "label_sw": "Moyo",
+      "label_ch": "心",
+      "label_fr": "Cœur",
+      "label_ar": "قلب"
+    },
+    {
+      "value": "Lungs",
+      "label_en": "Lungs",
+      "label_pt": "Pulmões",
+      "label_de": "Lunge(n)",
+      "label_sp": "Pulmones",
+      "label_sw": "Mapafu",
+      "label_nl": "Longen",
+      "label_ch": "肺",
+      "label_rs": "Легкие",
+      "label_fr": "Poumons",
+      "label_ar": "رئتين",
+      "label_tr": "Akciğerler"
+    },
+    {
+      "value": "Liver",
+      "label_en": "Liver",
+      "label_pt": "Fígado",
+      "label_de": "Leber",
+      "label_sp": "Hígado",
+      "label_sw": "Maini",
+      "label_nl": "Lever",
+      "label_ch": "肝",
+      "label_rs": "Печень",
+      "label_fr": "Foie",
+      "label_ar": "كبد",
+      "label_tr": "Karaciğer"
+    },
+    {
+      "value": "Kidney",
+      "label_en": "Kidney",
+      "label_pt": "Rim",
+      "label_de": "Niere(n)",
+      "label_sp": "Riñón",
+      "label_sw": "Figo",
+      "label_nl": "Nier",
+      "label_ch": "肾",
+      "label_rs": "Почка",
+      "label_fr": "Rein",
+      "label_ar": "كُلى",
+      "label_tr": "Böbrek"
+    },
+    {
+      "value": "Cornea",
+      "label_en": "Cornea",
+      "label_pt": "Córnea",
+      "label_de": "Hornhaut",
+      "label_sp": "Córnea",
+      "label_sw": "Cornea",
+      "label_nl": "Hoornvlies",
+      "label_ch": "角膜",
+      "label_rs": "Роговица",
+      "label_fr": "Cornée",
+      "label_ar": "قرنية",
+      "label_tr": "Kornea"
+    },
+    {
+      "value": "Skin",
+      "label_en": "Skin",
+      "label_pt": "Pele",
+      "label_de": "Haut",
+      "label_sp": "Piel",
+      "label_sw": "Ngozi",
+      "label_nl": "Huid",
+      "label_ch": "皮肤",
+      "label_rs": "Кожа",
+      "label_fr": "Peau",
+      "label_ar": "جلد",
+      "label_tr": "Cilt"
+    },
+    {
+      "value": "Pancreas",
+      "label_en": "Pancreas",
+      "label_pt": "Pâncreas",
+      "label_de": "Bauchspeicheldrüse",
+      "label_sp": "Páncreas",
+      "label_sw": "Kongosho",
+      "label_nl": "Alvleesklier",
+      "label_ch": "胰腺",
+      "label_rs": "Поджелудочная железа",
+      "label_fr": "Pancréas",
+      "label_ar": "بنكرياس",
+      "label_tr": "Pankreas"
+    },
+    {
+      "value": "Bone Marrow",
+      "label_en": "Bone Marrow",
+      "label_pt": "Medula Óssea",
+      "label_de": "Knochenmark",
+      "label_sp": "Médula Ósea",
+      "label_sw": "Uboho",
+      "label_nl": "Beenmerg",
+      "label_ch": "骨髓",
+      "label_rs": "Костный мозг",
+      "label_fr": "Moelle osseuse",
+      "label_ar": "نخاع عظام",
+      "label_tr": "Kemik iliği"
+    }
+  ],
+  "dates": [
+    {
+      "value": "DD/MM/YYYY",
+      "label": "DD/MM/YYYY"
+    },
+    {
+      "value": "MM/DD/YYYY",
+      "label": "MM/DD/YYYY"
+    },
+    {
+      "value": "YYYY/DD/MM",
+      "label": "YYYY/DD/MM"
+    }
+  ],
+  "times": [
+    {
+      "value": "12",
+      "label": "12"
+    },
+    {
+      "value": "24",
+      "label": "24"
+    }
+  ],
+  "personalised_card": [
+    {
+      "label_ar": "رسم بياني لضغط الدم",
+      "label_tr": "Grafik-Kan Basıncı",
+      "label_fr": "Graphique - Pression sanguine",
+      "label_rs": "График: кровяное давление",
+      "label_ch": "图表-血压",
+      "label_nl": "Grafiek - Bloeddruk",
+      "label_sw": "Grafu la shinikizo la damu",
+      "label_sp": "Gráfico de Presión Arterial",
+      "label_de": "Blutdruckkurve",
+      "label_pt": "Gráfico de Pressão Arterial",
+      "label_en": "Graph-Blood Pressure",
+      "value": "graph_blood_pressure"
+    },
+    {
+      "label_ar": "آخر زيارة للطبيب",
+      "label_tr": "Son Doktor Ziyareti",
+      "label_fr": "Dernière visite médicale",
+      "label_rs": "Последний визит к врачу",
+      "label_ch": "最后一次就诊",
+      "label_nl": "Laatste Doktersbezoek",
+      "label_sw": "Ziara ya Daktari la Mwisho",
+      "label_sp": "Última Visita al Médico",
+      "label_de": "Letzter Arztbesuch",
+      "label_pt": "Última Visita Médica",
+      "label_en": "Last Doctor Visit",
+      "value": "last_doctor_visit"
+    },
+    {
+      "label_ar": "رسم بياني لسكر الدم",
+      "label_tr": "Graph-Kan Şekeri",
+      "label_fr": "Sucre de sang graphique",
+      "label_rs": "График: уровень сахара в крови",
+      "label_ch": "图-血糖",
+      "label_nl": "Grafiek - Bloedsuikerspiegel",
+      "label_sw": "Grafu la damu sukari",
+      "label_sp": "Gráfico de Azúcar en Sangre",
+      "label_de": "Blutzuckerkurve",
+      "label_pt": "Gráfico de Açúcar no Sangue",
+      "label_en": "Graph-Blood Sugar",
+      "value": "graph_blood_sugar"
+    },
+    {
+      "label_ar": "رسم بياني لمعدل نبضات القلب",
+      "label_tr": "Grafik-Kalp Atış Hızı",
+      "label_fr": "Taux de cœur graphique",
+      "label_rs": "График: частота сердечных сокращений",
+      "label_ch": "图表-心率",
+      "label_nl": "Grafiek - Hartslag",
+      "label_sw": "Grafu la mpigo wa moyo",
+      "label_sp": "Gráfico de Frecuencia Cardíaca",
+      "label_de": "Herzfrequenzkurve",
+      "label_pt": "Gráfico DE Frequência Cardíaca",
+      "label_en": "Graph-Heart Rate",
+      "value": "graph_heart_rate"
+    },
+    {
+      "label_ar": "رسم بياني للوزن & BMI",
+      "label_tr": "Grafik Ağırlık ve Bmi",
+      "label_fr": "Graphique - Poids et Bmi",
+      "label_rs": "График: вес и ИМТ",
+      "label_ch": "图表-体重和Bmi",
+      "label_nl": "Grafiek - Gewicht & Bmi",
+      "label_sw": "Grafu la uzito na Bmi",
+      "label_sp": "Gráfico-Peso e IMC",
+      "label_de": "Gewicht & BMI",
+      "label_pt": "Gráfico de Peso e IMC",
+      "label_en": "Graph-Weight & Bmi",
+      "value": "graph_weight_bmi"
+    },
+    {
+      "label_ar": "كرياتينين",
+      "label_tr": "Kreatinin",
+      "label_fr": "Créatinine",
+      "label_rs": "креатинин",
+      "label_ch": "肌酐",
+      "label_nl": "Creatinine",
+      "label_sw": "Creatinine",
+      "label_sp": "Creatinina",
+      "label_de": "Kreatinin",
+      "label_pt": "Creatinina",
+      "label_en": "Creatinine",
+      "value": "creatnine"
+    },
+    {
+      "value": "hemoglobine",
+      "label_tr": "Hemoglobin",
+      "label_en": "Hemoglobine",
+      "label_de": "Hämoglobin",
+      "label_pt": "Hemoglobina",
+      "label_sp": "Hemoglobina",
+      "label_sw": "Hemoglobini",
+      "label_nl": "Hemoglobine",
+      "label_rs": "Гемоглобин",
+      "label_ch": "血红蛋白",
+      "label_fr": "Hémoglobine",
+      "label_ar": "الهيموجلوبين"
+    },
+    {
+      "value": "leucocytes",
+      "label_tr": "Lökositler",
+      "label_en": "Leucocytes",
+      "label_de": "Leucocytes",
+      "label_pt": "Leucócitos",
+      "label_sp": "Leucocitos",
+      "label_sw": "Leucocytes",
+      "label_nl": "Leukocyten",
+      "label_rs": "Лейкоциты",
+      "label_ch": "白细胞",
+      "label_fr": "Les leucocytes",
+      "label_ar": "الكريات البيض"
+    },
+    {
+      "value": "potassium",
+      "label_tr": "Potasyum",
+      "label_en": "Potassium",
+      "label_de": "Kalium",
+      "label_pt": "Potássio",
+      "label_sp": "Potasio",
+      "label_sw": "Potasiamu",
+      "label_nl": "Kalium",
+      "label_rs": "Калий",
+      "label_ch": "钾盐",
+      "label_fr": "Potassium",
+      "label_ar": "البوتاسيوم"
+    },
+    {
+      "value": "pancreaticlipase",
+      "label_tr": "Pankreas lipaz",
+      "label_en": "Pancreatic lipase",
+      "label_de": "Pankreaslipase",
+      "label_pt": "Pancreaticlipase",
+      "label_sp": "Pancreaticlipasa",
+      "label_sw": "Pancreaticlipase",
+      "label_nl": "Pancreaticlipase",
+      "label_rs": "Панкреатиклипаза",
+      "label_ch": "胰脂酶",
+      "label_fr": "Pancréaticlipase",
+      "label_ar": "البنكرياس ليباز"
+    },
+    {
+      "value": "thrombocytes",
+      "label_tr": "Trombositler",
+      "label_en": "Thrombocytes",
+      "label_de": "Thrombozyten",
+      "label_pt": "Trombócitos",
+      "label_sp": "Trombocitos",
+      "label_sw": "Thrombocytes",
+      "label_nl": "Trombocyten",
+      "label_rs": "Тромбоциты",
+      "label_ch": "血小板",
+      "label_fr": "Les thrombocytes",
+      "label_ar": "الصفائح الدموية"
+    },
+    {
+      "value": "sodium",
+      "label_tr": "Sodyum",
+      "label_en": "Sodium",
+      "label_de": "Natrium",
+      "label_pt": "Sódio",
+      "label_sp": "Sodio",
+      "label_sw": "Sodiamu",
+      "label_nl": "Natrium",
+      "label_rs": "Натрий",
+      "label_ch": "钠",
+      "label_fr": "Sodium",
+      "label_ar": "صوديوم"
+    },
+    {
+      "value": "ggt",
+      "label_tr": "GGT",
+      "label_en": "GGT",
+      "label_de": "GGT",
+      "label_pt": "GGT",
+      "label_sp": "GGT",
+      "label_sw": "GGT",
+      "label_nl": "GGT",
+      "label_rs": "GGT",
+      "label_ch": "GGT",
+      "label_fr": "GGT",
+      "label_ar": "GGT"
+    },
+    {
+      "value": "ast/got",
+      "label_tr": "AST/GOT",
+      "label_en": "AST/GOT",
+      "label_de": "AST/GOT",
+      "label_pt": "AST/GOT",
+      "label_sp": "AST/GOT",
+      "label_sw": "AST/GOT",
+      "label_nl": "AST/GOT",
+      "label_rs": "AST/GOT",
+      "label_ch": "AST/GOT",
+      "label_fr": "AST/GOT",
+      "label_ar": "AST/GOT"
+    },
+    {
+      "value": "alt/gpt",
+      "label_tr": "ALT/GPT",
+      "label_en": "ALT/GPT",
+      "label_de": "ALT/GPT",
+      "label_pt": "ALT/GPT",
+      "label_sp": "ALT/GPT",
+      "label_sw": "ALT/GPT",
+      "label_nl": "ALT/GPT",
+      "label_rs": "ALT/GPT",
+      "label_ch": "ALT/GPT",
+      "label_fr": "ALT/GPT",
+      "label_ar": "ALT/GPT"
+    },
+    {
+      "label_ar": "المواعيد القادمة",
+      "label_tr": "Yaklaşan randevular",
+      "label_fr": "Prochains rendez-vous",
+      "label_rs": "Предстоящие встречи",
+      "label_ch": "即将到来的约会",
+      "label_nl": "Volgende afspraken",
+      "label_sw": "Uteuzi ujao",
+      "label_sp": "Próximas citas",
+      "label_de": "Kommende Termine",
+      "label_pt": "Próximos Consultas",
+      "label_en": "Upcoming appointments",
+      "value": "upcomming_appointments"
+    },
+    {
+      "label_ar": "التنفس",
+      "label_tr": "Solunum",
+      "label_fr": "Respiration",
+      "label_rs": "Дыхание",
+      "label_ch": "呼吸",
+      "label_nl": "Ademhaling",
+      "label_sw": "Kupumua",
+      "label_sp": "Respiración",
+      "label_de": "Atmung",
+      "label_pt": "Respiraçãol",
+      "label_en": "Respiration",
+      "value": "respiration"
+    },
+    {
+      "label_rs": "Последние документы",
+      "label_tr": "Son belgeler",
+      "label_ch": "最后的文档",
+      "label_nl": "Laatste documenten",
+      "label_sw": "Nyaraka za mwisho",
+      "label_sp": "Ultimos documentos",
+      "label_de": "Letzte Dokumente",
+      "label_pt": "Últimos Documentos",
+      "label_en": "Last documents",
+      "label_ar": "المستندات الأخيرة",
+      "label_fr": "Derniers documents",
+      "value": "last_documents"
+    },
+    {
+      "label_ar": "الرسم البياني HbA1c",
+      "label_tr": "Graph-HbA1c",
+      "label_fr": "Graphique-HbA1c",
+      "label_rs": "График-HbA1c",
+      "label_ch": "图-HbA1c",
+      "label_nl": "Grafiek - Bloedsuikerspiegel",
+      "label_sw": "Grafu-HbA1c",
+      "label_sp": "Gráfico-HbA1c",
+      "label_de": "Graph-HbA1c",
+      "label_pt": "Graph-HbA1c",
+      "label_en": "Graph-HbA1c",
+      "value": "graph_HbA1c"
+    }
+  ],
+  "anamnesis": [
+    {
+      "label_ar": "نتائج فحص البطن",
+      "label_tr": "Karın Bulguları",
+      "label_fr": "Constatations relatives à l'abdomen",
+      "label_rs": "Проблемы в брюшной полости",
+      "label_ch": "腹部发现",
+      "label_nl": "Abdominale Bevindingen",
+      "label_sw": "Matokeo ya Tumbo",
+      "label_sp": "Hallazgos Abdominales",
+      "label_de": "Abdomenbefunde",
+      "label_pt": "Descobertas Abdominais",
+      "label_en": "Abdominal Findings",
+      "value": "abdominal_findings"
+    },
+    {
+      "label_ar": "نتائج فحص الجلد",
+      "label_tr": "Dermatolojik Bulgular",
+      "label_fr": "Constatations dermatologiques",
+      "label_rs": "Дерматологические данные",
+      "label_ch": "皮肤病发现",
+      "label_nl": "Dermatologische Bevindingen",
+      "label_sw": "Matokeo ya Datiti",
+      "label_sp": "Hallazgos Dermatológicos",
+      "label_de": "Hautbefunde",
+      "label_pt": "Descobertas Dermatológicas",
+      "label_en": "Dermatological Findings",
+      "value": "dermatological_findings"
+    },
+    {
+      "label_ar": "نص حر",
+      "label_tr": "Ücretsiz Metin",
+      "label_fr": "Texte libre",
+      "label_rs": "Свободный текст",
+      "label_ch": "自由文本",
+      "label_nl": "Vrije tekst",
+      "label_sw": "Nakala ya bure",
+      "label_sp": "Texto libre",
+      "label_de": "Freitext",
+      "label_pt": "Texto livre",
+      "label_en": "Free text",
+      "value": "free_text"
+    },
+    {
+      "label_tr": "Genel Bulgular",
+      "label_ar": "نتائج فحص عامة",
+      "label_fr": "Conclusions générales",
+      "label_rs": "Общие выводы",
+      "label_ch": "一般发现",
+      "label_nl": "Algemene Bevindingen",
+      "label_sw": "Matokeo ya Jumla",
+      "label_sp": "Hallazgos Generales",
+      "label_de": "Allgemeine Untersuchungsbefunde",
+      "label_pt": "Descobertas Gerais",
+      "label_en": "General Findings",
+      "value": "general_findings"
+    },
+    {
+      "label_ar": "نتائج الفحص النسائي",
+      "label_tr": "Jinekolojik Bulgular",
+      "label_fr": "Constatations gynécologiques",
+      "label_rs": "Гинекология",
+      "label_ch": "妇科检查结果",
+      "label_nl": "Gynaecologische Bevindingen",
+      "label_sw": "Matokeo ya Jinakolojia",
+      "label_sp": "Hallazgos Ginecológicos",
+      "label_de": "Gynäkologische Befunde",
+      "label_pt": "Descobertas Ginecológicas",
+      "label_en": "Gynecological Findings",
+      "value": "gynecological_findings"
+    },
+    {
+      "label_ar": "نتائج فحص الرأس / الرقبة",
+      "label_tr": "Baş / Boyun Bulguları",
+      "label_fr": "Constatations concernant la tête et le cou",
+      "label_rs": "Голова и шея",
+      "label_ch": "头/颈调查结果",
+      "label_nl": "Hoofd / Nek Bevindingen",
+      "label_sw": "Utafutaji wa Kichwa / Shingo",
+      "label_sp": "Hallazgos en Cabeza y Cuello",
+      "label_de": "Kopf- und Halsbefunde",
+      "label_pt": "Descobertas em Cabeça e Pescoço",
+      "label_en": "Head / Neck Findings",
+      "value": "headneck_findings"
+    },
+    {
+      "label_ar": "نتائج فحص القلب / الصدر",
+      "label_tr": "Kalp / Akciğer Bulguları",
+      "label_fr": "Constatations concernant le cœur et les poumons",
+      "label_rs": "Сердце и легкие",
+      "label_ch": "心肺检查结果",
+      "label_nl": "Hart / Longen Bevindingen",
+      "label_sw": "Matokeo ya Moyo / Mapafu",
+      "label_sp": "Hallazgos en Corazón y Pulmón",
+      "label_de": "Herz- und Lungenbefunde",
+      "label_pt": "Descobertas em Coração e Pulmão",
+      "label_en": "Heart / Lung Findings",
+      "value": "heartlung_findings"
+    },
+    {
+      "label_ar": "نتائج فحص الجهاز العصبي الهيكلي",
+      "label_tr": "Kas-İskelet Bulguları",
+      "label_fr": "Découvertes musculo-squelettiques",
+      "label_rs": "Мышечно-скелетный",
+      "label_ch": "肌腰肌发现",
+      "label_nl": "Musculoskeletale Bevindingen",
+      "label_sw": "Matokeo ya Musculosceletal",
+      "label_sp": "Hallazgos Musculoesqueléticos",
+      "label_de": "Muskuloskelettale Befunde",
+      "label_pt": "Descobertas musculoesqueléticas",
+      "label_en": "Musculosceletal Findings",
+      "value": "musculosceletal_findings"
+    },
+    {
+      "label_ar": "نتائج الفحص العصبي",
+      "label_tr": "Nörolojik Bulgular",
+      "label_fr": "Découvertes neurologiques",
+      "label_rs": "Неврология",
+      "label_ch": "神经学发现",
+      "label_nl": "Neurologische Bevindingen",
+      "label_sw": "Matokeo ya Neurolojia",
+      "label_sp": "Hallazgos Neurológicos",
+      "label_de": "Neurologische Befunde",
+      "label_pt": "Descobertas Neurológicos",
+      "label_en": "Neurological Findings",
+      "value": "neurological_findings"
+    }
+  ],
+  "bloodgroup": [
+    {
+      "label": "Not known",
+      "value": "not_known"
+    },
+    {
+      "label": "A",
+      "value": "A"
+    },
+    {
+      "label": "B",
+      "value": "B"
+    },
+    {
+      "label": "AB",
+      "value": "AB"
+    },
+    {
+      "label": "O",
+      "value": "O"
+    }
+  ],
+  "rhesus": [
+    {
+      "label": "Not known",
+      "value": "not_known"
+    },
+    {
+      "label_ar": "إيجابي",
+      "label_tr": "Pozitif",
+      "label_rs": "Положительный",
+      "label_ch": "正",
+      "label_nl": "Positief",
+      "label_sw": "Chanya",
+      "label_sp": "Positivo",
+      "label_de": "Positiv",
+      "label_pt": "Positivo",
+      "label_en": "Positive",
+      "label_fr": "Positive",
+      "value": "+"
+    },
+    {
+      "label_ar": "سلبي",
+      "label_tr": "Olumsuz",
+      "label_rs": "Отрицательный",
+      "label_ch": "负",
+      "label_nl": "Negatief",
+      "label_sw": "Hasi",
+      "label_sp": "Negativo",
+      "label_de": "Negativ",
+      "label_pt": "Negativo",
+      "label_en": "Negative",
+      "label_fr": "Négatif",
+      "value": "-"
+    }
+  ],
+  "vaccination": [
+    {
+      "label_ar": "فايزر / بيوانتك",
+      "label_fr": "Pfizer / BioNTech",
+      "label_rs": "Pfizer / BioNTech",
+      "label_ch": "辉瑞/ BioNTech",
+      "label_nl": "Pfizer / BioNTech",
+      "label_sw": "Pfizer / BioNTech",
+      "label_sp": "Pfizer / BioNTech",
+      "label_de": "Pfizer / BioNTech",
+      "label_pt": "Pfizer / BioNTech",
+      "label_tr": "Pfizer / BioNTech",
+      "label_en": "Pfizer / BioNTech",
+      "value": "Pfizer/BioNTech"
+    },
+    {
+      "label_ar": "موديرنا",
+      "label_fr": "Moderna",
+      "label_rs": "Moderna",
+      "label_ch": "现代",
+      "label_nl": "Moderna",
+      "label_sw": "Moderna",
+      "label_sp": "Moderna",
+      "label_de": "Moderna",
+      "label_pt": "Moderna",
+      "label_tr": "Moderna",
+      "label_en": "Moderna",
+      "value": "Moderna"
+    },
+    {
+      "label_ar": "أسترازينيكا",
+      "label_fr": "AstraZeneca",
+      "label_rs": "АстраЗенека",
+      "label_ch": "阿斯利康",
+      "label_nl": "AstraZeneca",
+      "label_sw": "AstraZeneca",
+      "label_sp": "AstraZeneca",
+      "label_de": "AstraZeneca",
+      "label_pt": "AstraZeneca",
+      "label_tr": " AstraZeneca",
+      "label_en": " AstraZeneca",
+      "value": " AstraZeneca"
+    },
+    {
+      "label_ar": "يانسن",
+      "label_fr": "Janssen",
+      "label_rs": "Янссен",
+      "label_ch": "詹森",
+      "label_nl": "Janssen",
+      "label_sw": "Janssen",
+      "label_sp": "Janssen",
+      "label_de": "Janssen",
+      "label_pt": "Janssen",
+      "label_tr": "Janssen",
+      "label_en": "Janssen",
+      "value": " Janssen"
+    }
+  ],
+  "maritalStatus": [
+    {
+      "label_ar": "غير متوفر",
+      "label_fr": "Indisponible",
+      "label_rs": "Недоступно",
+      "label_ch": "无法使用",
+      "label_nl": "Niet beschikbaar",
+      "label_sw": "Haipatikani",
+      "label_sp": "No disponible",
+      "label_de": "无法使用",
+      "label_pt": "Solteiro/-a",
+      "label_tr": "Müsait değil",
+      "label_en": "Not available",
+      "value": "not_available"
+    },
+    {
+      "label_ar": "غير مرتبطة",
+      "label_fr": "Célibataire",
+      "label_rs": "не замужем",
+      "label_ch": "单",
+      "label_nl": "Single",
+      "label_sw": "Mseja",
+      "label_sp": "Soltero/-a",
+      "label_de": "Single",
+      "label_pt": "Solteiro/-a",
+      "label_tr": "Tek",
+      "label_en": "Single",
+      "value": "single"
+    },
+    {
+      "label_ar": "متزوج",
+      "label_fr": "Marié",
+      "label_rs": "замужем",
+      "label_ch": "已婚",
+      "label_nl": "Getrouwd",
+      "label_sw": "Kuolewa",
+      "label_sp": "Casado/-a",
+      "label_de": "Verheiratet",
+      "label_pt": "Casado/-a",
+      "label_tr": "Evli",
+      "label_en": "Married",
+      "value": "married"
+    },
+    {
+      "label_ar": "مطلقة",
+      "label_fr": "Divorcé",
+      "label_rs": "В разводе",
+      "label_ch": "离婚了",
+      "label_nl": "Gescheiden",
+      "label_sw": "Talaka",
+      "label_sp": "Divorciado/-a",
+      "label_de": "Geschieden",
+      "label_pt": "Divorciado/-a",
+      "label_tr": "Boşanmış",
+      "label_en": "Divorced",
+      "value": "divorced"
+    },
+    {
+      "label_ar": "الأرامل",
+      "label_fr": "Veuf/veuve",
+      "label_rs": "Вдова",
+      "label_ch": "寡",
+      "label_nl": "Weduwnaar",
+      "label_sw": "Mjane",
+      "label_sp": "Viudo/-a",
+      "label_de": "Verwitwet",
+      "label_pt": "Viúvo/-a",
+      "label_tr": "Dul",
+      "label_en": "Widowed",
+      "value": "widowed"
+    }
+  ],
+  "medication_unit": [
+    {
+      "value": "mg",
+      "label": "mg"
+    },
+    {
+      "value": "g",
+      "label": "g"
+    },
+    {
+      "value": "IE",
+      "label": "IE"
+    },
+    {
+      "value": "ml",
+      "label": "ml"
+    },
+    {
+      "value": "microgramm",
+      "label": "microgramm"
+    },
+    {
+      "value": "microgramm/h",
+      "label": "microgramm/h"
+    }
+  ],
+  "in_app_purchase": [
+    {
+      "ios": [
+        "aimedis_v3_purchase",
+        "course_10"
+      ],
+      "android": []
+    }
+  ],
+  "billing_status": [
+    {
+      "label_ar": "دفع",
+      "label_rs": "оплаченный",
+      "label_ch": "有薪酬的",
+      "label_nl": "betaald",
+      "label_sw": "kulipwa",
+      "label_sp": "pagado",
+      "label_de": "bezahlt",
+      "label_pt": "pago",
+      "label_en": "Paid",
+      "label_fr": "payé",
+      "label_tr": "paralı",
+      "value": "paid"
+    },
+    {
+      "label_ar": "مشروع",
+      "label_rs": "ПРОЕКТ",
+      "label_ch": "草案",
+      "label_nl": "DROOGTE",
+      "label_sw": "RASIMU",
+      "label_sp": "BORRADOR",
+      "label_de": "LUFTZUG",
+      "label_pt": "ESBOÇO",
+      "label_en": "Draft",
+      "label_fr": "BROUILLON",
+      "label_tr": "TASLAK",
+      "value": "draft"
+    },
+    {
+      "label_ar": "صادر",
+      "label_rs": "изданный",
+      "label_ch": "发布",
+      "label_nl": "uitgegeven",
+      "label_sw": "iliyotolewa",
+      "label_sp": "emitido",
+      "label_de": "ausgegeben",
+      "label_pt": "publicada",
+      "label_en": "Issued",
+      "label_fr": "BROUILLON",
+      "label_tr": "Publié",
+      "value": "issued"
+    },
+    {
+      "label_ar": "متأخر",
+      "label_rs": "просроченный",
+      "label_ch": "逾期",
+      "label_nl": "achterstallig",
+      "label_sw": "imechelewa",
+      "label_sp": "atrasado",
+      "label_de": "überfällig",
+      "label_pt": "atrasado",
+      "label_en": "Overdue",
+      "label_fr": "en retard",
+      "label_tr": "GECİKMİŞ",
+      "value": "overdue"
+    }
+  ],
+  "journal_promotion": [
+    {
+      "label_ar": "معلومات المستشفى",
+      "label_rs": "Информация о больнице",
+      "label_ch": "医院信息",
+      "label_nl": "Ziekenhuisinformatie",
+      "label_sw": "Taarifa za Hospitali",
+      "label_sp": "Información del hospital",
+      "label_de": "Krankenhausinformationen",
+      "label_pt": "Informações do Hospital",
+      "label_en": "Hospital Information",
+      "label_fr": "Informations sur l'hôpital",
+      "label_tr": "Hastane Bilgileri",
+      "value": "hospital_information"
+    },
+    {
+      "label_ar": "معلومات صحية عامة",
+      "label_rs": "Общая информация о здоровье",
+      "label_ch": "一般健康信息",
+      "label_nl": "Algemene gezondheidsinformatie",
+      "label_sw": "Taarifa za Jumla za Afya",
+      "label_sp": "Información General de Salud",
+      "label_de": "Allgemeine Gesundheitsinformationen",
+      "label_pt": "Informações gerais de saúde",
+      "label_en": "General Health Information",
+      "label_fr": "Informations générales sur la santé",
+      "label_tr": "Genel Sağlık Bilgileri",
+      "value": "general_health_information"
+    },
+    {
+      "label_ar": "معلومات العلاج العامة",
+      "label_rs": "Общая информация о лечении",
+      "label_ch": "一般治疗信息",
+      "label_nl": "Algemene behandelingsinformatie",
+      "label_sw": "Maelezo ya Jumla ya Matibabu",
+      "label_sp": "Información General de Tratamiento",
+      "label_de": "AAllgemeine Behandlungsinformationen",
+      "label_pt": "Informações Gerais de Tratamento",
+      "label_en": "General Treatment Information",
+      "label_fr": "Informations générales sur le traitement",
+      "label_tr": "Genel Tedavi Bilgileri",
+      "value": "general_treatment_information"
+    },
+    {
+      "label_ar": "معلومات التطعيم",
+      "label_rs": "Информация о вакцинации",
+      "label_ch": "疫苗接种信息",
+      "label_nl": "Vaccinatie-informatie",
+      "label_sw": "Taarifa za Chanjo",
+      "label_sp": "Información de vacunación",
+      "label_de": "Impfinformationen",
+      "label_pt": "Informações de vacinação",
+      "label_en": "Vaccination Information",
+      "label_fr": "Informations sur la vaccination",
+      "label_tr": "Aşı Bilgileri",
+      "value": "vaccination_information"
+    },
+    {
+      "label_ar": "معلومات عاجلة",
+      "label_rs": "Срочная информация",
+      "label_ch": "紧急信息",
+      "label_nl": "Urgente informatie",
+      "label_sw": "Taarifa za Haraka",
+      "label_sp": "Información urgente",
+      "label_de": "Dringende Informationen",
+      "label_pt": "Informação urgente",
+      "label_en": "Urgent Information",
+      "label_fr": "Information urgente",
+      "label_tr": "Acil bilgi",
+      "value": "urgent_information"
+    }
+  ],
+  "authority": {
+    "adminstaff_roles": [
+      {
+        "value": "questionnaire",
+        "data": [
+          {
+            "label": "Add Questionnaire",
+            "value": "add_questionnaire"
+          },
+          {
+            "label": "Edit Questionnaire",
+            "value": "edit_questionnaire"
+          },
+          {
+            "label": "Get Questionnaire",
+            "value": "get_questionnaire"
+          },
+          {
+            "label": "Delete Questionnaire",
+            "value": "delete_questionnaire"
+          }
+        ],
+        "label": "Questionnaire"
+      },
+      {
+        "value": "Calendar",
+        "data": [
+          {
+            "label": "Arrange Appointment",
+            "value": "arrange_appointment"
+          },
+          {
+            "label": "Add task",
+            "value": "add_task"
+          },
+          {
+            "label": "Show Calendar Data",
+            "value": "show_calendar_data"
+          }
+        ],
+        "label": "calendar"
+      },
+      {
+        "value": "patient_flow",
+        "data": [
+          {
+            "label": "Show Steps with Patients",
+            "value": "show_step_patient"
+          },
+          {
+            "label": "Create New User",
+            "value": "add_user"
+          },
+          {
+            "label": "Add Patient",
+            "value": "add_patient"
+          },
+          {
+            "label": "Add Step",
+            "value": "add_step"
+          },
+          {
+            "label": "Delete Step",
+            "value": "delete_step"
+          },
+          {
+            "label": "Rename Step",
+            "value": "rename_step"
+          },
+          {
+            "label": "Edit Step",
+            "value": "edit_step"
+          },
+          {
+            "label": "Open Details",
+            "value": "open_details"
+          },
+          {
+            "label": "Add new entry",
+            "value": "add_entry"
+          },
+          {
+            "label": "Add task",
+            "value": "add_task"
+          },
+          {
+            "label": "Add appointment",
+            "value": "Add_appointment"
+          },
+          {
+            "label": "Change  Staff",
+            "value": "change_staff"
+          },
+          {
+            "label": "Move patient",
+            "value": "move_patient"
+          },
+          {
+            "label": "Assign speciality",
+            "value": "Assign_speciality"
+          },
+          {
+            "label": "Assign Room",
+            "value": "assign_room"
+          },
+          {
+            "label": "Discharge Patient",
+            "value": "discharge_patient"
+          },
+          {
+            "label": "Remove Patient",
+            "value": "remove_patient"
+          },
+          {
+            "label": "Move to External/Internal Space",
+            "value": "move_external_space"
+          }
+        ],
+        "label": "Patient Flow"
+      },
+      {
+        "value": "service_manager",
+        "data": [
+          {
+            "label": "Add service",
+            "value": "add_service"
+          },
+          {
+            "label": "Edit service",
+            "value": "edit_service"
+          },
+          {
+            "label": "Delete service",
+            "value": "delete_service"
+          },
+          {
+            "label": "Add invoice",
+            "value": "add_invoice"
+          },
+          {
+            "label": "Print invoice",
+            "value": "print_invoice"
+          },
+          {
+            "label": "Download invoice",
+            "value": "download_invoice"
+          },
+          {
+            "label": "Delete invoice",
+            "value": "delete_invoice"
+          },
+          {
+            "label": "Set invoice status",
+            "value": "set_invoice_status"
+          },
+          {
+            "label": "Show invoice",
+            "value": "show_invoice"
+          },
+          {
+            "label": "Change invoice pattern",
+            "value": "change_invoice_pattern"
+          },
+          {
+            "label": "Change sick certificate Amount",
+            "value": "change_sc_amount"
+          }
+        ],
+        "label": "Service Manager"
+      },
+      {
+        "value": "space_managemnet",
+        "data": [
+          {
+            "label": "Show spaeciality",
+            "value": "show_speciality"
+          },
+          {
+            "label": "Add spaeciality",
+            "value": "add_speciality"
+          },
+          {
+            "label": "Edit speciality",
+            "value": "edit_speciality"
+          },
+          {
+            "label": "Delete spaeciality",
+            "value": "delete_speciality"
+          },
+          {
+            "label": "Drop and down patient",
+            "value": "drop_down_patient"
+          }
+        ],
+        "label": "Space Management"
+      },
+      {
+        "value": "task_manager",
+        "data": [
+          {
+            "label": "Add task",
+            "value": "add_task"
+          },
+          {
+            "label": "Edit task",
+            "value": "edit_task"
+          },
+          {
+            "label": "Delete task",
+            "value": "delete_task"
+          },
+          {
+            "label": "Show task",
+            "value": "show_task"
+          }
+        ],
+        "label": "Task Manager"
+      },
+      {
+        "value": "assigned_services",
+        "data": [
+          {
+            "label": "Add Assigned Services",
+            "value": "add_assignedservice"
+          },
+          {
+            "label": "Edit Assigned Services",
+            "value": "edit_assignedservice"
+          },
+          {
+            "label": "Delete Assigned Services",
+            "value": "delete_assigned_services"
+          },
+          {
+            "label": "Show Assigned Services",
+            "value": "get_assignedservice"
+          }
+        ],
+        "label": "Assigned Services"
+      },
+      {
+        "value": "external_space_managemnet",
+        "data": [
+          {
+            "label": "Show external space management",
+            "value": "show_external_space"
+          },
+          {
+            "label": "Move to Internal Space",
+            "value": "move_internal_space"
+          }
+        ],
+        "label": "External Space Management"
+      },
+      {
+        "value": "care_questionnary",
+        "data": [
+          {
+            "label": "Show all care questionnary",
+            "value": "show_care_questionnary"
+          }
+        ],
+        "label": "Care questionnary"
+      },
+      {
+        "value": "journal_manager",
+        "data": [
+          {
+            "label": "Add Anamnesis",
+            "value": "add_anamnesis"
+          },
+          {
+            "label": "Edit Anamnesis",
+            "value": "edit_anamnesis"
+          },
+          {
+            "label": "Add Blood Pressure",
+            "value": "add_blood_pressure"
+          },
+          {
+            "label": "Edit Blood Pressure",
+            "value": "edit_blood_pressure"
+          },
+          {
+            "label": "Add Blood Sugar",
+            "value": "add_blood_sugar"
+          },
+          {
+            "label": "Edit Blood Sugar",
+            "value": "edit_blood_sugar"
+          },
+          {
+            "label": "Add Condition and Pain",
+            "value": "add_condition_pain"
+          },
+          {
+            "label": "Edit Condition and Pain",
+            "value": "edit_condition_pain"
+          },
+          {
+            "label": "Add Covid-19 Diary",
+            "value": "add_covid_diary"
+          },
+          {
+            "label": "Edit Covid-19 Diary",
+            "value": "edit_covid_diary"
+          },
+          {
+            "label": "Add Covid-19 Vaccination Trial",
+            "value": "add_vaccination_trial"
+          },
+          {
+            "label": "Edit Covid-19  Vaccination Trial",
+            "value": "edit_vaccination_trial"
+          },
+          {
+            "label": "Add Dianosis",
+            "value": "add_diagnosis"
+          },
+          {
+            "label": "Edit Diagnosis",
+            "value": "edit_diagnosis"
+          },
+          {
+            "label": "Add Diary",
+            "value": "add_diary"
+          },
+          {
+            "label": "Edit Diary",
+            "value": "edit_diary"
+          },
+          {
+            "label": "Add doctor visit",
+            "value": "add_doctor_visit"
+          },
+          {
+            "label": "Edit Doctor visit",
+            "value": "edit_doctor_visit"
+          },
+          {
+            "label": "Add Family Anamnesis",
+            "value": "add_family_anamnesis"
+          },
+          {
+            "label": "Edit Family Anamnesis ",
+            "value": "edit_family_anamnesis"
+          },
+          {
+            "label": "Add Files upload",
+            "value": "add_files_upload"
+          },
+          {
+            "label": "Edit Files upload",
+            "value": "edit_files_upload"
+          },
+          {
+            "label": "Add Hospital visit",
+            "value": "add_hospital_visit"
+          },
+          {
+            "label": "Edit Hospital visit",
+            "value": "edit_hospital_visit"
+          },
+          {
+            "label": "Add Laboratory result",
+            "value": "add_laboratory_result"
+          },
+          {
+            "label": "Edit Laboratory result",
+            "value": "edit_laboratory_result"
+          },
+          {
+            "label": "Add Long-covid tool",
+            "value": "add_long_covid_tool"
+          },
+          {
+            "label": "Edit Long-covid tool",
+            "value": "edit_long_covid_tool"
+          },
+          {
+            "label": "Add Marcumar Pass",
+            "value": "add_marcumar_pass"
+          },
+          {
+            "label": "Edit Marcumar Pass",
+            "value": "edit_marcumar_pass"
+          },
+          {
+            "label": "Add Medication",
+            "value": "add_medication"
+          },
+          {
+            "label": "Edit Medication",
+            "value": "edit_medication"
+          },
+          {
+            "label": "Add Prescription",
+            "value": "add_prescription"
+          },
+          {
+            "label": "Edit prescription",
+            "value": "edit_prescription"
+          },
+          {
+            "label": "Add Respiration",
+            "value": "add_respiration"
+          },
+          {
+            "label": "Edit Respiration",
+            "value": "edit_respiration"
+          },
+          {
+            "label": "Add Second opinion",
+            "value": "add_second_opinion"
+          },
+          {
+            "label": "Edit Second opinion",
+            "value": "edit_second_opinion"
+          },
+          {
+            "label": "Add Sick certificate",
+            "value": "add_sick certificate"
+          },
+          {
+            "label": "Edit Sick certificate",
+            "value": "edit_sick_certificate"
+          },
+          {
+            "label": "Add Smoking status",
+            "value": "add_smoking status"
+          },
+          {
+            "label": "Edit Smoking status",
+            "value": "edit_smoking_status"
+          },
+          {
+            "label": "Add vaccination",
+            "value": "add_vaccination"
+          },
+          {
+            "label": "Edit Vaccination",
+            "value": "edit_vaccination"
+          },
+          {
+            "label": "Add Weight and BMI",
+            "value": "add_wieght_bmi"
+          },
+          {
+            "label": "Edit Weight and BMI",
+            "value": "edit_weight_bmi"
+          }
+        ],
+        "label": "Journal Manager"
+      },
+      {
+        "value": "group_staff_manager",
+        "label": "Group Staff Manager",
+        "data": [
+          {
+            "label": "Add Group Staff",
+            "value": "add_group_staff"
+          },
+          {
+            "label": "Edit Group Staff",
+            "value": "edit_group_staff"
+          },
+          {
+            "label": "Delete Group Staff",
+            "value": "delete_group_staff"
+          },
+          {
+            "value": "show_staff_group",
+            "label": "ShoW stafF Group"
+          }
+        ]
+      },
+      {
+        "label": "Therapy Manager",
+        "value": "therapy_manager",
+        "data": [
+          {
+            "label": "Add Therapy",
+            "value": "add_therapy"
+          },
+          {
+            "label": "Show Therapy",
+            "value": "show_therapy"
+          },
+          {
+            "label": "Edit Therapy",
+            "value": "edit_therapy"
+          },
+          {
+            "label": "Delete Therapy",
+            "value": "delete_therapy"
+          },
+          {
+            "label": "Assign Therapy",
+            "value": "assign_therapy"
+          }
+        ]
+      }
+    ],
+    "doctor_roles": [
+      {
+        "value": "appointment_manager",
+        "data": [
+          {
+            "label": "Approve appointment",
+            "value": "approve_appointment"
+          },
+          {
+            "label": "Suggest new Date/Time",
+            "value": "suggest_new_appointment"
+          },
+          {
+            "label": "show appointment",
+            "value": "show_appointment"
+          }
+        ],
+        "label": "Appointment Manager"
+      },
+      {
+        "value": "professional_activity",
+        "data": [
+          {
+            "label": "Edit Professional Activity",
+            "value": "edit_professional_activity"
+          },
+          {
+            "label": "Delete Professional Activity",
+            "value": "delete_professional_activity"
+          },
+          {
+            "label": "Add Task",
+            "value": "add_task"
+          },
+          {
+            "label": "Add assigned services",
+            "value": "add_assigned_services"
+          },
+          {
+            "label": "Add Assign Therpay",
+            "value": "add_assign_therapy"
+          }
+        ],
+        "label": "Professional Activity"
+      },
+      {
+        "value": "care_questionnary",
+        "data": [
+          {
+            "label": "Add Care Questionnary",
+            "value": "add_care_questionnary"
+          }
+        ],
+        "label": "Care Questionnary"
+      },
+      {
+        "value": "journal_manager",
+        "data": [
+          {
+            "label": "Add Anamnesis",
+            "value": "add_anamnesis"
+          },
+          {
+            "label": "Edit Anamnesis",
+            "value": "edit_anamnesis"
+          },
+          {
+            "label": "Add Blood Pressure",
+            "value": "add_blood_pressure"
+          },
+          {
+            "label": "Edit Blood Pressure",
+            "value": "edit_blood_pressure"
+          },
+          {
+            "label": "Add Blood Sugar",
+            "value": "add_blood_sugar"
+          },
+          {
+            "label": "Edit Blood Sugar",
+            "value": "edit_blood_sugar"
+          },
+          {
+            "label": "Add Condition and Pain",
+            "value": "add_condition_pain"
+          },
+          {
+            "label": "Edit Condition and Pain",
+            "value": "edit_condition_pain"
+          },
+          {
+            "label": "Add Covid-19 Diary",
+            "value": "add_covid_diary"
+          },
+          {
+            "label": "Edit Covid-19 Diary",
+            "value": "edit_covid_diary"
+          },
+          {
+            "label": "Add Covid-19 Vaccination Trial",
+            "value": "add_vaccination_trial"
+          },
+          {
+            "label": "Edit Covid-19  Vaccination Trial",
+            "value": "edit_vaccination_trial"
+          },
+          {
+            "label": "Add Dianosis",
+            "value": "add_diagnosis"
+          },
+          {
+            "label": "Edit Diagnosis",
+            "value": "edit_diagnosis"
+          },
+          {
+            "label": "Add Diary",
+            "value": "add_diary"
+          },
+          {
+            "label": "Edit Diary",
+            "value": "edit_diary"
+          },
+          {
+            "label": "Add doctor visit",
+            "value": "add_doctor_visit"
+          },
+          {
+            "label": "Edit Doctor visit",
+            "value": "edit_doctor_visit"
+          },
+          {
+            "label": "Add Family Anamnesis",
+            "value": "add_family_anamnesis"
+          },
+          {
+            "label": "Edit Family Anamnesis ",
+            "value": "edit_family_anamnesis"
+          },
+          {
+            "label": "Add Files upload",
+            "value": "add_files_upload"
+          },
+          {
+            "label": "Edit Files upload",
+            "value": "edit_files_upload"
+          },
+          {
+            "label": "Add Hospital visit",
+            "value": "add_hospital_visit"
+          },
+          {
+            "label": "Edit Hospital visit",
+            "value": "edit_hospital_visit"
+          },
+          {
+            "label": "Add Laboratory result",
+            "value": "add_laboratory_result"
+          },
+          {
+            "label": "Edit Laboratory result",
+            "value": "edit_laboratory_result"
+          },
+          {
+            "label": "Add Long-covid tool",
+            "value": "add_long_covid_tool"
+          },
+          {
+            "label": "Edit Long-covid tool",
+            "value": "edit_long_covid_tool"
+          },
+          {
+            "label": "Add Marcumar Pass",
+            "value": "add_marcumar_pass"
+          },
+          {
+            "label": "Edit Marcumar Pass",
+            "value": "edit_marcumar_pass"
+          },
+          {
+            "label": "Add Medication",
+            "value": "add_medication"
+          },
+          {
+            "label": "Edit Medication",
+            "value": "edit_medication"
+          },
+          {
+            "label": "Add Prescription",
+            "value": "add_prescription"
+          },
+          {
+            "label": "Edit prescription",
+            "value": "edit_prescription"
+          },
+          {
+            "label": "Add Respiration",
+            "value": "add_respiration"
+          },
+          {
+            "label": "Edit Respiration",
+            "value": "edit_respiration"
+          },
+          {
+            "label": "Add Second opinion",
+            "value": "add_second_opinion"
+          },
+          {
+            "label": "Edit Second opinion",
+            "value": "edit_second_opinion"
+          },
+          {
+            "label": "Add Sick certificate",
+            "value": "add_sick certificate"
+          },
+          {
+            "label": "Edit Sick certificate",
+            "value": "edit_sick_certificate"
+          },
+          {
+            "label": "Add Smoking status",
+            "value": "add_smoking status"
+          },
+          {
+            "label": "Edit Smoking status",
+            "value": "edit_smoking_status"
+          },
+          {
+            "label": "Add vaccination",
+            "value": "add_vaccination"
+          },
+          {
+            "label": "Edit Vaccination",
+            "value": "edit_vaccination"
+          },
+          {
+            "label": "Add Weight and BMI",
+            "value": "add_wieght_bmi"
+          },
+          {
+            "label": "Edit Weight and BMI",
+            "value": "edit_weight_bmi"
+          }
+        ],
+        "label": "Journal Manager"
+      }
+    ],
+    "nurse_roles": [
+      {
+        "value": "appointment_manager",
+        "data": [
+          {
+            "label": "Approve appointment",
+            "value": "approve_appointment"
+          },
+          {
+            "label": "Suggest new Date/Time",
+            "value": "suggest_new_appointment"
+          },
+          {
+            "label": "show appointment",
+            "value": "show_appointment"
+          }
+        ],
+        "label": "Appointment Manager"
+      },
+      {
+        "value": "professional_activity",
+        "data": [
+          {
+            "label": "Edit Professional Activity",
+            "value": "edit_professional_activity"
+          },
+          {
+            "label": "Delete Professional Activity",
+            "value": "delete_professional_activity"
+          },
+          {
+            "label": "Add Task",
+            "value": "add_task"
+          },
+          {
+            "label": "Add assigned services",
+            "value": "add_assigned_services"
+          },
+          {
+            "label": "Add Assign Therpay",
+            "value": "add_assign_therapy"
+          }
+        ],
+        "label": "Professional Activity"
+      },
+      {
+        "value": "care_questionnary",
+        "data": [
+          {
+            "label": "Add Care Questionnary",
+            "value": "add_care_questionnary"
+          }
+        ],
+        "label": "Care Questionnary"
+      },
+      {
+        "value": "journal_manager",
+        "data": [
+          {
+            "label": "Add Anamnesis",
+            "value": "add_anamnesis"
+          },
+          {
+            "label": "Edit Anamnesis",
+            "value": "edit_anamnesis"
+          },
+          {
+            "label": "Add Blood Pressure",
+            "value": "add_blood_pressure"
+          },
+          {
+            "label": "Edit Blood Pressure",
+            "value": "edit_blood_pressure"
+          },
+          {
+            "label": "Add Blood Sugar",
+            "value": "add_blood_sugar"
+          },
+          {
+            "label": "Edit Blood Sugar",
+            "value": "edit_blood_sugar"
+          },
+          {
+            "label": "Add Condition and Pain",
+            "value": "add_condition_pain"
+          },
+          {
+            "label": "Edit Condition and Pain",
+            "value": "edit_condition_pain"
+          },
+          {
+            "label": "Add Covid-19 Diary",
+            "value": "add_covid_diary"
+          },
+          {
+            "label": "Edit Covid-19 Diary",
+            "value": "edit_covid_diary"
+          },
+          {
+            "label": "Add Covid-19 Vaccination Trial",
+            "value": "add_vaccination_trial"
+          },
+          {
+            "label": "Edit Covid-19  Vaccination Trial",
+            "value": "edit_vaccination_trial"
+          },
+          {
+            "label": "Add Dianosis",
+            "value": "add_diagnosis"
+          },
+          {
+            "label": "Edit Diagnosis",
+            "value": "edit_diagnosis"
+          },
+          {
+            "label": "Add Diary",
+            "value": "add_diary"
+          },
+          {
+            "label": "Edit Diary",
+            "value": "edit_diary"
+          },
+          {
+            "label": "Add doctor visit",
+            "value": "add_doctor_visit"
+          },
+          {
+            "label": "Edit Doctor visit",
+            "value": "edit_doctor_visit"
+          },
+          {
+            "label": "Add Family Anamnesis",
+            "value": "add_family_anamnesis"
+          },
+          {
+            "label": "Edit Family Anamnesis ",
+            "value": "edit_family_anamnesis"
+          },
+          {
+            "label": "Add Files upload",
+            "value": "add_files_upload"
+          },
+          {
+            "label": "Edit Files upload",
+            "value": "edit_files_upload"
+          },
+          {
+            "label": "Add Hospital visit",
+            "value": "add_hospital_visit"
+          },
+          {
+            "label": "Edit Hospital visit",
+            "value": "edit_hospital_visit"
+          },
+          {
+            "label": "Add Laboratory result",
+            "value": "add_laboratory_result"
+          },
+          {
+            "label": "Edit Laboratory result",
+            "value": "edit_laboratory_result"
+          },
+          {
+            "label": "Add Long-covid tool",
+            "value": "add_long_covid_tool"
+          },
+          {
+            "label": "Edit Long-covid tool",
+            "value": "edit_long_covid_tool"
+          },
+          {
+            "label": "Add Marcumar Pass",
+            "value": "add_marcumar_pass"
+          },
+          {
+            "label": "Edit Marcumar Pass",
+            "value": "edit_marcumar_pass"
+          },
+          {
+            "label": "Add Medication",
+            "value": "add_medication"
+          },
+          {
+            "label": "Edit Medication",
+            "value": "edit_medication"
+          },
+          {
+            "label": "Add Prescription",
+            "value": "add_prescription"
+          },
+          {
+            "label": "Edit prescription",
+            "value": "edit_prescription"
+          },
+          {
+            "label": "Add Respiration",
+            "value": "add_respiration"
+          },
+          {
+            "label": "Edit Respiration",
+            "value": "edit_respiration"
+          },
+          {
+            "label": "Add Second opinion",
+            "value": "add_second_opinion"
+          },
+          {
+            "label": "Edit Second opinion",
+            "value": "edit_second_opinion"
+          },
+          {
+            "label": "Add Sick certificate",
+            "value": "add_sick certificate"
+          },
+          {
+            "label": "Edit Sick certificate",
+            "value": "edit_sick_certificate"
+          },
+          {
+            "label": "Add Smoking status",
+            "value": "add_smoking status"
+          },
+          {
+            "label": "Edit Smoking status",
+            "value": "edit_smoking_status"
+          },
+          {
+            "label": "Add vaccination",
+            "value": "add_vaccination"
+          },
+          {
+            "label": "Edit Vaccination",
+            "value": "edit_vaccination"
+          },
+          {
+            "label": "Add Weight and BMI",
+            "value": "add_wieght_bmi"
+          },
+          {
+            "label": "Edit Weight and BMI",
+            "value": "edit_weight_bmi"
+          }
+        ],
+        "label": "Journal Manager"
+      }
+    ]
+  },
+  "video_minutes": [
+    {
+      "value": 20,
+      "label": 20
+    },
+    {
+      "value": 40,
+      "label": 40
+    },
+    {
+      "value": 60,
+      "label": 60
+    },
+    {
+      "value": 120,
+      "label": 120
+    },
+    {
+      "value": 240,
+      "label": 240
+    }
+  ]
+}]
